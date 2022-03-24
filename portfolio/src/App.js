@@ -1,6 +1,10 @@
 import React from "react";
-import InfoContainer from "./components/InfoContainer";
+import { BrowserRouter } from "react-router-dom";
+import NavBar from "./components/Navbar";
 
-const App = () => <InfoContainer />;
-
+const App = () => (
+  <BrowserRouter>
+    <NavBar />
+  </BrowserRouter>
+);
 export default App;
