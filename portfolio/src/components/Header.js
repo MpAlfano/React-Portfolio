@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ toggle }) => {
   return (
     <nav
       className="flex justify-between items-center h-24 bg-white text-black relative shadow-sm"
       role="navigation"
     >
-      <h1 className="pl-10 16px font-bold text-6xl">Mark Alfano</h1>
+      <h1 className="pl-10 16px font-bold text-4xl">Mark Alfano</h1>
 
-      <div className="px04 cursor-pointer md:hidden">
+      <div className="px04 cursor-pointer md:hidden" onClick={toggle}>
         <svg
           className="w-6 h-6"
           fill="none"
