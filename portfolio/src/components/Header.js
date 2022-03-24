@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = ({ toggle }) => {
   return (
     <nav
-      className="flex justify-between items-center h-24 bg-white text-black relative shadow-sm"
+      className="flex justify-between items-center h-24 bg-black text-white relative shadow-sm"
       role="navigation"
     >
       <h1 className="pl-10 16px font-bold text-4xl">Mark Alfano</h1>
@@ -26,16 +26,25 @@ const Header = ({ toggle }) => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link className="p-4" to="/">
+        <Link className="p-4 bg-blue-500 hover:bg-blue-600 text-white" to="/">
           About Me
         </Link>
-        <Link className="p-4" to="Portfolio">
+        <Link
+          className="p-4 bg-blue-500 hover:bg-blue-600 text-white"
+          to="Portfolio"
+        >
           Portfolio
         </Link>
-        <Link className="p-4" to="Contact">
+        <Link
+          className="p-4 bg-blue-500 hover:bg-blue-600 text-white"
+          to="Contact"
+        >
           Contact
         </Link>
-        <Link className="p-4" to="Resume">
+        <Link
+          className="p-4 bg-blue-500 hover:bg-blue-600 text-white"
+          to="Resume"
+        >
           Resume
         </Link>
       </div>
