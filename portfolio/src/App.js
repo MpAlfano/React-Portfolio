@@ -14,6 +14,7 @@ const App = () => (
       <Route path="/Contact" element={<Contact />} exact />
       <Route path="/Portfolio" element={<Portfolio />} exact />
       <Route path="/Resume" element={<Resume />} exact />
+      {/* <Route element={<ErrorPage />} Add in later maybe?*/}
     </Routes>
   </BrowserRouter>
 );
