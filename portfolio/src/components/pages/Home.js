@@ -1,20 +1,25 @@
 import React from "react";
+import profPicture from "..//images/bio.jpg";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className="md:container md:mx-auto">
+      <img
+        className="w-32 md:w-64 lg:w-96"
+        src={profPicture}
+        alt="biography"
+      ></img>
+      <h1>About Me:</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        Hello my name is Mark, I previously ran my own landscaping business for
+        over seven years before deciding I wanted to pursue coding. I am very
+        goal orientated and enjoy the planning process almost as much as doing
+        or completing a project. I have always been intrigued by programming and
+        the works going on behind the scene on webpages and mobile apps. Now
+        that I have begun my journey on this path I am creating many works of my
+        own. I really enjoy creating new things and thinking of new ways to
+        complete tasks more efficiently. I look forward to my future and maybe
+        one day I will be working with you!
       </p>
     </div>
   );
