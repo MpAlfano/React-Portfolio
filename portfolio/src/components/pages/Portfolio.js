@@ -4,18 +4,28 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <div className="container mt-5">
+        <div className="md:flex">
+          <div className="flex-1 text-black text-center bg-white px-5 py-5 m-2 rounded">
+            <div className="lg:flex lg:items-center">
+              <div className="lg:flex-shrink-0">
+                <img className="rounded-lg lg:w-64" src="" alt="" />
+              </div>
+              <div className="mt-4 lg:mt-0 lg:ml-6">
+                <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
+                  Project 1
+                </div>
+                <a
+                  href="/"
+                  className="block mt-1 text-lg leading-tight font-semibold text-gray-700 hover:underline"
+                >
+                  See Project here
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
