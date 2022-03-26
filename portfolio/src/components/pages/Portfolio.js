@@ -1,10 +1,10 @@
 import React from "react";
-import proj1 from "..//images/proj1.png";
-import proj2 from "..//images/proj2.png";
-import proj3 from "..//images/proj3.png";
-import proj4 from "..//images/proj4.png";
-import proj5 from "..//images/proj5.png";
-import proj6 from "..//images/proj6.png";
+import proj1 from "../images/proj1.png";
+import proj2 from "../images/proj2.png";
+import proj3 from "../images/proj3.png";
+import proj4 from "../images/proj4.png";
+import proj5 from "../images/proj5.png";
+import proj6 from "../images/proj6.png";
 
 export default function Portfolio() {
   return (
@@ -199,14 +199,16 @@ export default function Portfolio() {
                     Project
                   </a>
                 </button>
-                <a
-                  href="https://github.com/MpAlfano/Text-Editor"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold text-gray-700"
-                >
-                  Github Repo
-                </a>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  <a
+                    href="https://github.com/MpAlfano/Text-Editor"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold text-gray-700"
+                  >
+                    Github Repo
+                  </a>
+                </button>
               </div>
             </div>
           </div>

@@ -26,23 +26,26 @@ const Header = ({ toggle }) => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link className="p-4 bg-blue-500 hover:bg-blue-600 text-white" to="/">
+        <Link
+          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded"
+          to="/"
+        >
           About Me
         </Link>
         <Link
-          className="p-4 bg-blue-500 hover:bg-blue-600 text-white"
+          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded"
           to="Portfolio"
         >
           Portfolio
         </Link>
         <Link
-          className="p-4 bg-blue-500 hover:bg-blue-600 text-white"
+          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded"
           to="Contact"
         >
           Contact
         </Link>
         <Link
-          className="p-4 bg-blue-500 hover:bg-blue-600 text-white"
+          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded"
           to="Resume"
         >
           Resume
