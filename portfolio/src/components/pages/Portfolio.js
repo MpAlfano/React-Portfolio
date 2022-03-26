@@ -18,15 +18,15 @@ export default function Portfolio() {
                 <img
                   className="rounded-lg lg:w-64"
                   src={[proj1]}
-                  alt="Off The Couch"
+                  alt="Pick & Mix"
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
-                  Project 1
+                  Pick & Mix
                 </div>
                 <a
-                  href="https://mpalfano.github.io/Off-the-couch-personal/"
+                  href="https://pick-n-mix.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="block mt-1 text-lg leading-tight font-semibold text-gray-700"
@@ -34,7 +34,7 @@ export default function Portfolio() {
                   Project
                 </a>
                 <a
-                  href="https://github.com/MpAlfano/Off-the-couch-personal"
+                  href="https://github.com/MpAlfano/pick-n-mix"
                   target="_blank"
                   rel="noreferrer"
                   className="block mt-1 text-lg leading-tight font-semibold text-gray-700"
@@ -50,15 +50,15 @@ export default function Portfolio() {
                 <img
                   className="rounded-lg lg:w-64"
                   src={[proj2]}
-                  alt="Pick & Mix"
+                  alt="Off The Couch"
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
-                  Project 2
+                  Off The Couch
                 </div>
                 <a
-                  href="https://pick-n-mix.herokuapp.com/"
+                  href="https://mpalfano.github.io/Off-the-couch-personal/"
                   target="_blank"
                   rel="noreferrer"
                   className="block mt-1 text-lg leading-tight font-semibold text-gray-700"
@@ -66,7 +66,7 @@ export default function Portfolio() {
                   Project
                 </a>
                 <a
-                  href="https://github.com/MpAlfano/pick-n-mix"
+                  href="https://github.com/MpAlfano/Off-the-couch-personal"
                   target="_blank"
                   rel="noreferrer"
                   className="block mt-1 text-lg leading-tight font-semibold text-gray-700"
@@ -89,7 +89,7 @@ export default function Portfolio() {
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
-                  Project 3
+                  Team Page Generator
                 </div>
                 <a
                   href="https://drive.google.com/file/d/1SEgfOOYlcsP_NGAnhDHhQlTAogMmE3SJ/view"
@@ -121,7 +121,7 @@ export default function Portfolio() {
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
-                  Project 4
+                  Employee Tracker
                 </div>
                 <a
                   href="https://drive.google.com/file/d/14MFCAClaN5ZHQJUiS2FZ12bAQRH9YpNB/view"
@@ -155,7 +155,7 @@ export default function Portfolio() {
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
-                  Project 5
+                  Social Network API
                 </div>
                 <a
                   href="https://drive.google.com/file/d/1DKWWVOzsYXXoT9VpF7elQkfQbeLTxfZC/view"
@@ -187,7 +187,7 @@ export default function Portfolio() {
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
-                  Project 6
+                  Just A Text Editor
                 </div>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   <a

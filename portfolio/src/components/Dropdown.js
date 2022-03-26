@@ -14,13 +14,13 @@ const Dropdown = ({ isOpen, toggle }) => {
       <Link className="p-1" to="/">
         About Me
       </Link>
-      <Link className="p-4" to="Portfolio">
+      <Link className="p-1" to="Portfolio">
         Portfolio
       </Link>
-      <Link className="p-4" to="Contact">
+      <Link className="p-1" to="Contact">
         Contact
       </Link>
-      <Link className="p-4" to="Resume">
+      <Link className="p-1" to="Resume">
         Resume
       </Link>
     </div>
