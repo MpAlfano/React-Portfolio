@@ -10,3 +10,10 @@
     margin-top: 15px border-radius 8px;
   }
 }
+
+@media (min-width: 768px) {
+  .mainAbout\:flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
