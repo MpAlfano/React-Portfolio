@@ -33,7 +33,7 @@ const App = () => {
       <Header toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Routes>
-        <Route path="/" element={<Home />} exact />
+        <Route path="/React-Portfolio" element={<Home />} exact />
         <Route path="/Contact" element={<Contact />} exact />
         <Route path="/Portfolio" element={<Portfolio />} exact />
         <Route path="/Resume" element={<Resume />} exact />

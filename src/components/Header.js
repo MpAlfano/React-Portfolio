@@ -26,10 +26,7 @@ const Header = ({ toggle }) => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link
-          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded inline-flex items-center"
-          to="/"
-        >
+        <Link className="inline-flex items-center pr-10" to="/React-Portfolio">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"
@@ -46,10 +43,7 @@ const Header = ({ toggle }) => {
           </svg>
           About Me
         </Link>
-        <Link
-          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded inline-flex items-center"
-          to="Portfolio"
-        >
+        <Link className="inline-flex items-center pr-10" to="Portfolio">
           <svg
             className="w-6 h-6"
             fill="none"
@@ -66,10 +60,7 @@ const Header = ({ toggle }) => {
           </svg>
           Portfolio
         </Link>
-        <Link
-          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded inline-flex items-center"
-          to="Contact"
-        >
+        <Link className="inline-flex items-center pr-10" to="Contact">
           <svg
             className="w-6 h-6"
             fill="none"
@@ -86,10 +77,7 @@ const Header = ({ toggle }) => {
           </svg>
           Contact
         </Link>
-        <Link
-          className="bg-cyan-200 hover:bg-cyan-100 border-b-4 border-cyan-400 hover:border-cyan-200 text-black text-center py-2 px-4 rounded inline-flex items-center"
-          to="Resume"
-        >
+        <Link className="inline-flex items-center pr-10" to="Resume">
           <svg
             className="w-6 h-6"
             fill="none"

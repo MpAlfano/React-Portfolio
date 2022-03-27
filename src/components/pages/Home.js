@@ -3,13 +3,9 @@ import profPicture from "..//images/bio.jpg";
 
 export default function Home() {
   return (
-    <div className="container mt-5 md:mx-auto bg-blue-400 rounded-log">
+    <div className="container mt-5 md:flex bg-blue-400 rounded-log">
       <div className="md:flex">
-        <img
-          className="float-left w-32 md:w-64 lg:w-96"
-          src={profPicture}
-          alt="biography"
-        ></img>
+        <img className="profPic" src={profPicture} alt="biography"></img>
         <h1>About Me:</h1>
         <p>
           Hello my name is Mark, I previously ran my own landscaping business
