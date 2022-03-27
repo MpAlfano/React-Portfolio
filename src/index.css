@@ -11,9 +11,9 @@
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .mainAbout {
     display: flex;
     flex-direction: column;
   }
-}
+} */

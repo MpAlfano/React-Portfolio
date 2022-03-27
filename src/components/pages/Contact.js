@@ -2,16 +2,41 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="container mt-5 mx-auto px-2">
+      <div className="md:flex">
+        <div className="flex-1 text-black text-center px-5 py-5">
+          <div>
+            <h1>Fill out this form to send me an email.</h1>
+            <form className="">
+              <div>
+                <label>Name:</label>
+                <br></br>
+                <input className="w-1/2" type="text" id="name" />
+              </div>
+              <div>
+                <label>Email:</label>
+                <br></br>
+                <input
+                  className="w-1/2 required:border-red-500 "
+                  type="text"
+                  id="email"
+                />
+              </div>
+              <div>
+                <label>Message</label>
+                <br></br>
+                <input className="w-full h-36" type="text" id="message" />
+              </div>
+              <div className="mb-2">
+                <br></br>
+                <button className="btn color-green" type="submit">
+                  Signup
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

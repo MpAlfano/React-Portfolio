@@ -189,7 +189,7 @@ export default function Portfolio() {
                 <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
                   Just A Text Editor
                 </div>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   <a
                     href="https://text-edit-or.herokuapp.com/"
                     target="_blank"
@@ -199,7 +199,7 @@ export default function Portfolio() {
                     Project
                   </a>
                 </button>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   <a
                     href="https://github.com/MpAlfano/Text-Editor"
                     target="_blank"
