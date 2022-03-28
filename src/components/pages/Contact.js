@@ -1,84 +1,3 @@
-// import React from "react";
-
-// export default function Contact() {
-//   return (
-//     <div className="container px-5 my-5">
-//       <form id="contactForm">
-//         <div className="mb-3">
-//           <label className="form-label" htmlFor="name">
-//             Name
-//           </label>
-//           <input
-//             className="form-control"
-//             id="name"
-//             type="text"
-//             placeholder="Name"
-//             data-sb-validations=""
-//           />
-//         </div>
-//         <div className="mb-3">
-//           <label className="form-label" htmlFor="emailAddress">
-//             Email Address
-//           </label>
-//           <input
-//             className="form-control"
-//             id="emailAddress"
-//             type="email"
-//             placeholder="Email Address"
-//             data-sb-validations="required,email"
-//           />
-//           <div
-//             className="invalid-feedback"
-//             data-sb-feedback="emailAddress:required"
-//           >
-//             Email Address is required.
-//           </div>
-//           <div
-//             className="invalid-feedback"
-//             data-sb-feedback="emailAddress:email"
-//           >
-//             Email Address Email is not valid.
-//           </div>
-//         </div>
-//         <div className="mb-3">
-//           <label className="form-label" htmlFor="message">
-//             Message
-//           </label>
-//           <input
-//             className="form-control"
-//             id="message"
-//             type="text"
-//             placeholder="Message"
-//             data-sb-validations="required"
-//           />
-//           <div className="invalid-feedback" data-sb-feedback="message:required">
-//             Message is required.
-//           </div>
-//         </div>
-//         <div className="d-none" id="submitSuccessMessage">
-//           <div className="text-center mb-3">
-//             <div className="fw-bolder">Form submission successful!</div>
-//           </div>
-//         </div>
-//         <div className="d-none" id="submitErrorMessage">
-//           <div className="text-center text-danger mb-3">
-//             Error sending message!
-//           </div>
-//         </div>
-//         <div className="d-grid">
-//           <button
-//             className="btn btn-primary btn-lg"
-//             id="submitButton"
-//             type="submit"
-//           >
-//             Submit
-//           </button>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// }
-
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -98,6 +17,10 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          document.querySelector(".user_name").value = "";
+          document.querySelector(".user_email").value = "";
+          document.querySelector(".message").value = "";
+          console.log(document.querySelector(".message").value);
         },
         (error) => {
           console.log(error.text);
@@ -106,14 +29,58 @@ export default function Contact() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className="container mt-5 mx-auto px-2">
+      <div className="md:flex">
+        <div className="flex-1 text-black text-center px-5 py-5">
+          <div>
+            <h1>Fill out this form to send me an email.</h1>
+
+            <section className="">
+              <form ref={form} onSubmit={sendEmail}>
+                <div className="contact">
+                  <label>Name:</label>
+                  <br></br>
+                  <input
+                    className="user_name w-1/2"
+                    type="text"
+                    name="user_name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label>Email:</label>
+                  <br></br>
+                  <input
+                    className="user_email w-1/2 required:border-red-500"
+                    name="user_email"
+                    type="email"
+                    required
+                  />
+                </div>
+                <div>
+                  <label>Message here:</label>
+                  <br></br>
+                  <textarea
+                    className="message w-full h-36"
+                    type="text"
+                    name="message"
+                    required
+                  />
+                </div>
+                <div className="mb-2">
+                  <br></br>
+                  <button
+                    className="bg-gray-800 hover:bg-gray-700 border-b-4 border-black hover:border-gray-800 text-white text-center py-2 px-4 rounded"
+                    type="submit"
+                  >
+                    Send email
+                  </button>
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
