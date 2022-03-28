@@ -20,7 +20,6 @@ export default function Contact() {
           document.querySelector(".user_name").value = "";
           document.querySelector(".user_email").value = "";
           document.querySelector(".message").value = "";
-          console.log(document.querySelector(".message").value);
         },
         (error) => {
           console.log(error.text);
@@ -33,7 +32,10 @@ export default function Contact() {
       <div className="md:flex">
         <div className="flex-1 text-black text-center px-5 py-5">
           <div>
-            <h1>Fill out this form to send me an email.</h1>
+            <h1 className="font-bold">
+              Fill out this form to send me an email. You can also send me an
+              email anytime at mpalfano4@gmail.com!
+            </h1>
 
             <section className="">
               <form ref={form} onSubmit={sendEmail}>
@@ -78,6 +80,25 @@ export default function Contact() {
                 </div>
               </form>
             </section>
+
+            <div className="container flex justify-center pt-20">
+              <a
+                className="pr-10"
+                href="https://www.linkedin.com/in/markalfano"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-linkedin fa-4x"></i>
+              </a>
+              <a
+                className="pr-10"
+                href="https://www.linkedin.com/in/markalfano"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-github fa-4x"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
