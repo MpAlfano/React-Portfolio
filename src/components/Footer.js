@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-sky-600 to-teal-700 flex items-center h-24 bg-black text-white">
-      <div className="container mx-auto">
+    <footer className="bg-gradient-to-r from-sky-600 to-teal-700 flex items-center h-24 bg-black text-white relative">
+      <div className="container mb-auto mx-auto">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center px-5 py-5">
+          <div className="flex-1 text-black text-center items-center">
             <a
               className="px-5"
               href="https://www.linkedin.com/in/markalfano"

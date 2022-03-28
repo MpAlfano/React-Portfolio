@@ -28,7 +28,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="mb-auto h-10 container mt-5 mx-auto px-2">
+    <div className="container mt-5 mx-auto px-2">
       <div className="md:flex">
         <div className="flex-1 text-black text-center px-5 py-5">
           <div>
@@ -36,7 +36,7 @@ export default function Contact() {
               Fill out this form to contact me thorugh email.
             </h1>
             <br></br>
-
+            <br></br>
             <section className="">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="contact">
@@ -73,6 +73,7 @@ export default function Contact() {
                 </div>
                 <br></br>
                 <div className="mb-2">
+                  <br></br>
                   <button
                     className="bg-gray-800 hover:bg-gray-700 border-b-4 border-black hover:border-gray-800 text-white text-center py-2 px-4 rounded pb-20px"
                     type="submit"
