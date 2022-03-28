@@ -3,10 +3,12 @@ import profPicture from "..//images/bio.jpg";
 
 export default function Home() {
   return (
-    <div className="container mt-5 md:flex bg-blue-400 margin: auto">
-      <div className="md:flex text-center">
+    <div className="profContainer container mt-5 md:flex bg-blue-400 margin: auto flex-direction: column justify-center">
+      <div className="profDiv md:flex text-center margin: 0 auto">
         <img className="profPic" src={profPicture} alt="biography"></img>
+
         <h1>About Me:</h1>
+
         <p>
           Hello my name is Mark, I previously ran my own landscaping business
           for over seven years before deciding I wanted to pursue coding. I am
@@ -19,6 +21,12 @@ export default function Home() {
           forward to my future and maybe one day I will be working with you!
         </p>
       </div>
+
+      {/* <div className="flex">
+        <div className="bg-red-500 h-4 w-6"></div>
+        <div className="bg-blue-500 h-6 w-10"></div>
+        <div className="bg-green-500 h-8 w-12"></div>
+      </div> */}
     </div>
   );
 }

@@ -5,17 +5,24 @@
 @media (min-width: 1024px) {
   .profPic {
     display: flex;
-    margin: 15px auto;
+    margin: 15px auto !important;
     width: 24rem;
-    margin: 0;
     border: 1px solid black;
     border-radius: 8px;
   }
 }
 
-/* @media (min-width: 768px) {
-  .mainAbout {
+@media (min-width: 768px) {
+  .profDiv {
     display: flex;
     flex-direction: column;
+    font-variant: JIS04;
+    margin: 0 auto;
   }
-} */
+  .profContainer {
+    display: flex;
+    flex-direction: column;
+    font-variant: JIS04;
+    margin: 0 auto;
+  }
+}
