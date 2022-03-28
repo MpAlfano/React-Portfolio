@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-sky-600 to-indigo-700 flex items-center h-24 bg-black text-white relative">
+    <footer className="bg-gradient-to-r from-sky-600 to-teal-700 flex items-center h-24 bg-black text-white relative">
       <div className="container mx-auto">
         <div className="md:flex">
           <div className="flex-1 text-black text-center px-5 py-5">

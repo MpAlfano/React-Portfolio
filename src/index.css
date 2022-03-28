@@ -4,10 +4,12 @@
 
 @media (min-width: 1024px) {
   .profPic {
+    display: flex;
+    margin: 15px auto;
     width: 24rem;
     margin: 0;
     border: 1px solid black;
-    margin-top: 15px border-radius 8px;
+    border-radius: 8px;
   }
 }
 
