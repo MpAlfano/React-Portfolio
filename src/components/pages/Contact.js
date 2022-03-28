@@ -28,7 +28,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="container mt-5 mx-auto px-2">
+    <div className="mb-auto h-10 container mt-5 mx-auto px-2">
       <div className="md:flex">
         <div className="flex-1 text-black text-center px-5 py-5">
           <div>
@@ -49,6 +49,7 @@ export default function Contact() {
                     required
                   />
                 </div>
+                <br></br>
                 <div>
                   <label>Email:</label>
                   <br></br>
@@ -59,6 +60,7 @@ export default function Contact() {
                     required
                   />
                 </div>
+                <br></br>
                 <div>
                   <label>Message here:</label>
                   <br></br>
@@ -69,10 +71,10 @@ export default function Contact() {
                     required
                   />
                 </div>
+                <br></br>
                 <div className="mb-2">
-                  <br></br>
                   <button
-                    className="bg-gray-800 hover:bg-gray-700 border-b-4 border-black hover:border-gray-800 text-white text-center py-2 px-4 rounded"
+                    className="bg-gray-800 hover:bg-gray-700 border-b-4 border-black hover:border-gray-800 text-white text-center py-2 px-4 rounded pb-20px"
                     type="submit"
                   >
                     Send email

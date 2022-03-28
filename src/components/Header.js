@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = ({ toggle }) => {
   return (
-    <nav
+    <header
       className="bg-gradient-to-r from-sky-600 to-teal-700 flex justify-between items-center h-24 bg-black text-white relative"
       role="navigation"
     >
@@ -95,7 +95,7 @@ const Header = ({ toggle }) => {
           Resume
         </Link>
       </div>
-    </nav>
+    </header>
   );
 };
 
