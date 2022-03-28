@@ -78,33 +78,6 @@ export default function Contact() {
                 </div>
               </form>
             </section>
-
-            <div className="container flex justify-center pt-20">
-              <a
-                className="pr-10"
-                href="https://www.linkedin.com/in/markalfano"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa-brands fa-linkedin fa-4x"></i>
-              </a>
-              <a
-                className="pr-10"
-                href="https://github.com/MpAlfano"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa-brands fa-github fa-4x"></i>
-              </a>
-              <a
-                className="pr-10"
-                href="mailto: mpalfano4@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa-regular fa-envelope fa-4x"></i>
-              </a>
-            </div>
           </div>
         </div>
       </div>

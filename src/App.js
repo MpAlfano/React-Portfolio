@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
 import Home from "./components/pages/Home";
 import Resume from "./components/pages/Resume";
 import Dropdown from "./components/Dropdown";
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/Resume" element={<Resume />} exact />
         {/* <Route element={<ErrorPage />} Add in later maybe?*/}
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
