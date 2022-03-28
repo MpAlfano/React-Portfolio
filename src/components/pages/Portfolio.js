@@ -12,7 +12,7 @@ export default function Portfolio() {
       <h1 className="text-center font-bold text-black">Portfolio Page</h1>
       <div className="container mt-5 mx-auto px-2">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-white px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -22,7 +22,7 @@ export default function Portfolio() {
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
+                <div className="uppercase tracking-wide text-sm text-sky-700 font-bold">
                   Pick & Mix
                 </div>
                 <a
@@ -44,7 +44,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-white px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -54,7 +54,7 @@ export default function Portfolio() {
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
+                <div className="uppercase tracking-wide text-sm text-sky-700 font-bold">
                   Off The Couch
                 </div>
                 <a
@@ -78,7 +78,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-white px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -88,7 +88,7 @@ export default function Portfolio() {
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
+                <div className="uppercase tracking-wide text-sm text-sky-700 font-bold">
                   Team Page Generator
                 </div>
                 <a
@@ -110,7 +110,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-white px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -120,7 +120,7 @@ export default function Portfolio() {
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
+                <div className="uppercase tracking-wide text-sm text-sky-700 font-bold">
                   Employee Tracker
                 </div>
                 <a
@@ -144,7 +144,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-white px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -154,7 +154,7 @@ export default function Portfolio() {
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
+                <div className="uppercase tracking-wide text-sm text-sky-700 font-bold">
                   Social Network API
                 </div>
                 <a
@@ -176,7 +176,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-white px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -186,7 +186,7 @@ export default function Portfolio() {
                 />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="uppercase tracking-wide text-sm text-indigo-400 font-bold">
+                <div className="uppercase tracking-wide text-sm text-sky-700 font-bold">
                   Just A Text Editor
                 </div>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">

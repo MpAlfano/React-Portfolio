@@ -32,7 +32,9 @@ export default function Contact() {
       <div className="md:flex">
         <div className="flex-1 text-black text-center px-5 py-5">
           <div>
-            <h1 className="text-xl">Fill out this form to send me an email.</h1>
+            <h1 className="text-xl">
+              Fill out this form to contact me thorugh email.
+            </h1>
             <br></br>
 
             <section className="">
