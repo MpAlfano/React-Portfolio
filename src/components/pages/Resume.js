@@ -7,6 +7,9 @@ export default function Resume() {
       <div className="md:flex">
         <div className="flex-1 text-black text-center px-5 py-5">
           <img className="object-fit: fill" src={resume} alt="biography"></img>
+          <a href="../documents/resume.pdf" download>
+            <img src="download_icon.jpg" alt="resume download button" />
+          </a>
         </div>
       </div>
     </div>
