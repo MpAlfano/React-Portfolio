@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = ({ toggle }) => {
   return (
     <header
-      className="bg-gradient-to-r from-sky-600 to-teal-700 flex justify-between items-center py-5 h-24 bg-black text-white relative"
+      className="bg-gradient-to-r from-sky-600 to-teal-700 flex justify-between items-center py-10 h-24 bg-black text-white relative"
       role="navigation"
     >
       <h1 className="pl-10 16px font-bold text-3xl">Mark Alfano</h1>
