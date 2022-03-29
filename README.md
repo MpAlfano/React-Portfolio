@@ -14,6 +14,7 @@ Personal profile page using react and tailwind css.
 - [LICENSE](#license)
 
 ## DEMO
+![Screenshot (631)](https://user-images.githubusercontent.com/96558916/160527920-964bdcb3-6feb-44df-afae-f25a110619d2.png)
 
 ## Deployment
 
