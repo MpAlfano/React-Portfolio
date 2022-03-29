@@ -30,6 +30,7 @@ export default function Footer() {
             >
               <i className="fa-regular fa-envelope fa-4x"></i>
             </a>
+            <p className="text-xl">Copyright © Mark Alfano 2022</p>
           </div>
         </div>
       </div>
