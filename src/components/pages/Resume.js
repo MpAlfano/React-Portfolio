@@ -4,13 +4,19 @@ import resumeDL from "../documents/resume.pdf";
 
 export default function Resume() {
   return (
-    <div className="container mt-5 mx-auto px-2">
+    <div className="mt-5 md:flex justify-center mx-auto px-2">
       <div className="md:flex">
         <div className="flex-1 text-black text-center px-5 py-5">
-          <img className="object-fit: fill" src={resume} alt="biography"></img>
-          <a href={resumeDL} download>
-            <img src="image in here" alt="resume download button" />
-          </a>
+          <div className="relative">
+            <img
+              className="object-fit: fill"
+              src={resume}
+              alt="biography"
+            ></img>
+            <a href={resumeDL} download>
+              <i class="absolute top-0 left-0 fa-solid fa-file-arrow-down fa-2x"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>

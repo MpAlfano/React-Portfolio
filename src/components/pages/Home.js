@@ -3,7 +3,7 @@ import profPicture from "..//images/bio.jpg";
 
 export default function Home() {
   return (
-    <div className="profContainer container mt-5 md:flex margin: auto flex-direction: column justify-center">
+    <div className="profContainer mt-5 md:flex justify-center">
       <div className="profDiv md:flex text-center margin: 0 auto">
         <img className="profPic" src={profPicture} alt="biography"></img>
 
