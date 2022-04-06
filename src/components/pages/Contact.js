@@ -1,8 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const form = useRef();
+
+  const [response, responseSet] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,15 +18,19 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
           document.querySelector(".user_name").value = "";
           document.querySelector(".user_email").value = "";
           document.querySelector(".message").value = "";
+          responseSet("Email has been sent, I will respond as soon as I can.");
         },
         (error) => {
           console.log(error.text);
         }
       );
+  };
+
+  const clearMessage = () => {
+    responseSet("");
   };
 
   return (
@@ -48,6 +54,7 @@ export default function Contact() {
                     type="text"
                     name="user_name"
                     required
+                    onChange={clearMessage}
                   />
                 </div>
                 <br></br>
@@ -59,6 +66,7 @@ export default function Contact() {
                     name="user_email"
                     type="email"
                     required
+                    onChange={clearMessage}
                   />
                 </div>
                 <br></br>
@@ -70,10 +78,12 @@ export default function Contact() {
                     type="text"
                     name="message"
                     required
+                    onChange={clearMessage}
                   />
                 </div>
                 <br></br>
                 <div className="mb-2">
+                  <p className="text-xl">{response}</p>
                   <br></br>
                   <button
                     className="bg-gray-800 hover:bg-gray-700 border-b-4 border-black hover:border-gray-800 text-white text-center py-2 px-4 rounded pb-20px"
