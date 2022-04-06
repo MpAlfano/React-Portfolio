@@ -17,15 +17,11 @@ export default function Portfolio() {
           <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
-                <img
-                  className="rounded-lg lg:w-64"
-                  src={gitfit}
-                  alt="Pick & Mix"
-                />
+                <img className="rounded-lg lg:w-64" src={gitfit} alt="GitFit" />
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-md font-bold">
-                  Pick & Mix
+                  GitFit
                 </div>
                 <p>
                   MERN stack application utilizing GraphQL and apollo-client to
