@@ -4,7 +4,7 @@ import profPicture from "..//images/bio.jpg";
 export default function Home() {
   return (
     <div className="md:flex justify-center">
-      <div className="profDiv md:flex text-center margin: 0 auto px-5 md:px-10 lg:px-20">
+      <div className="profDiv md:flex text-center margin: 0 auto px-2 md:px-10 lg:px-40">
         <h1 className="text-center font-bold text-4xl text-black">About Me</h1>
         <br></br>
         <img className="profPic" src={profPicture} alt="biography"></img>

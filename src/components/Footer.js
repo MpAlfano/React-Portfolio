@@ -12,7 +12,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-linkedin fa-4x"></i>
+              <i className="fa-brands fa-linkedin text-4xl md:text-5xl lg:text-6xl"></i>
             </a>
             <a
               className="px-5"
@@ -20,7 +20,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-github fa-4x"></i>
+              <i className="fa-brands fa-github text-4xl md:text-5xl lg:text-6xl"></i>
             </a>
             <a
               className="px-5"
@@ -28,8 +28,12 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-regular fa-envelope fa-4x"></i>
+              <i className="fa-regular fa-envelope text-4xl md:text-5xl lg:text-6xl"></i>
             </a>
+            <i className="fa fa-phone text-xl lg:text-3xl" aria-hidden="true">
+              <p className="text-base md:text-lg lg:text-xl">905 407 7178</p>
+            </i>
+
             <p className="text-xl">Copyright © Mark Alfano 2022</p>
           </div>
         </div>
