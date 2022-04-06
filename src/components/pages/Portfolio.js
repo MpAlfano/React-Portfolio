@@ -28,15 +28,15 @@ export default function Portfolio() {
                   Pick & Mix
                 </div>
                 <p>
-                  Full-stack project that uses a database to populate grocery
-                  items for a user to browse through. A user can sign up and
-                  begin adding items to their list. The user can also view that
-                  list to update item quantity, remove items and also remove all
-                  the items. Other features include the current date being
-                  displayed and a search bar to filter items.
+                  MERN stack application utilizing GraphQL and apollo-client to
+                  access a complex database. Database structure includes users,
+                  exercises, workout plans with weekly and daily exercises.
+                  Users can sign up and check out workout plans, add them to
+                  their own profile. Users can also view exercises with
+                  descriptions and an embedded how to video.
                 </p>
                 <a
-                  href="https://pick-n-mix.herokuapp.com/"
+                  href="https://gitfit-2.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
@@ -44,7 +44,7 @@ export default function Portfolio() {
                   Project
                 </a>
                 <a
-                  href="https://github.com/MpAlfano/pick-n-mix"
+                  href="https://github.com/nkrilis/GitFit-2.0"
                   target="_blank"
                   rel="noreferrer"
                   className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
@@ -59,7 +59,7 @@ export default function Portfolio() {
               <div className="lg:flex-shrink-0">
                 <img
                   className="rounded-lg lg:w-64"
-                  src={[proj1]}
+                  src={proj1}
                   alt="Pick & Mix"
                 />
               </div>
@@ -101,7 +101,7 @@ export default function Portfolio() {
               <div className="lg:flex-shrink-0">
                 <img
                   className="rounded-lg lg:w-64"
-                  src={[proj2]}
+                  src={proj2}
                   alt="Off The Couch"
                 />
               </div>
@@ -141,7 +141,7 @@ export default function Portfolio() {
               <div className="lg:flex-shrink-0">
                 <img
                   className="rounded-lg lg:w-64"
-                  src={[proj3]}
+                  src={proj3}
                   alt="Team Profile Generator"
                 />
               </div>
@@ -182,7 +182,7 @@ export default function Portfolio() {
               <div className="lg:flex-shrink-0">
                 <img
                   className="rounded-lg lg:w-64"
-                  src={[proj4]}
+                  src={proj4}
                   alt="Employee Tracker Back-end"
                 />
               </div>
@@ -222,7 +222,7 @@ export default function Portfolio() {
               <div className="lg:flex-shrink-0">
                 <img
                   className="rounded-lg lg:w-64"
-                  src={[proj5]}
+                  src={proj5}
                   alt="Social-Network-API"
                 />
               </div>

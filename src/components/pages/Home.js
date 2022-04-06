@@ -3,11 +3,11 @@ import profPicture from "..//images/bio.jpg";
 
 export default function Home() {
   return (
-    <div className="mt-5 md:flex justify-center">
+    <div className="md:flex justify-center">
       <div className="profDiv md:flex text-center margin: 0 auto">
+        <h1 className="text-center font-bold text-4xl text-black">About Me</h1>
+        <br></br>
         <img className="profPic" src={profPicture} alt="biography"></img>
-
-        <h1 classname="about">About Me:</h1>
         <div classname="about">
           <p>
             Hello my name is Mark, I'm an ambitious Full-Stack Developer looking
