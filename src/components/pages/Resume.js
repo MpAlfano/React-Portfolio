@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../images/resume.png";
+import resumeContd from "../images/resumeContd.png";
 import resumeDL from "../documents/resume.pdf";
 
 export default function Resume() {
@@ -16,6 +17,11 @@ export default function Resume() {
             <a href={resumeDL} download>
               <i class="absolute top-0 left-0 fa-solid fa-file-arrow-down fa-2x"></i>
             </a>
+            <img
+              className="object-fit: fill"
+              src={resumeContd}
+              alt="biography"
+            ></img>
           </div>
         </div>
       </div>

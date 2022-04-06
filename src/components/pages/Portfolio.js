@@ -4,7 +4,7 @@ import proj2 from "../images/proj2.png";
 import proj3 from "../images/proj3.png";
 import proj4 from "../images/proj4.png";
 import proj5 from "../images/proj5.png";
-import proj6 from "../images/proj6.png";
+import gitfit from "../images/gitfit.png";
 
 export default function Portfolio() {
   return (
@@ -14,6 +14,46 @@ export default function Portfolio() {
       </h1>
       <div className="container mt-5 mx-auto px-2">
         <div className="md:flex">
+          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+            <div className="lg:flex lg:items-center">
+              <div className="lg:flex-shrink-0">
+                <img
+                  className="rounded-lg lg:w-64"
+                  src={gitfit}
+                  alt="Pick & Mix"
+                />
+              </div>
+              <div className="mt-4 lg:mt-0 lg:ml-6">
+                <div className="uppercase tracking-wide text-md font-bold">
+                  Pick & Mix
+                </div>
+                <p>
+                  Full-stack project that uses a database to populate grocery
+                  items for a user to browse through. A user can sign up and
+                  begin adding items to their list. The user can also view that
+                  list to update item quantity, remove items and also remove all
+                  the items. Other features include the current date being
+                  displayed and a search bar to filter items.
+                </p>
+                <a
+                  href="https://pick-n-mix.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
+                >
+                  Project
+                </a>
+                <a
+                  href="https://github.com/MpAlfano/pick-n-mix"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
+                >
+                  Github Repo
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
@@ -54,6 +94,8 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="md:flex">
           <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
@@ -94,8 +136,6 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="md:flex">
           <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
@@ -135,6 +175,8 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="md:flex">
           <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
@@ -175,8 +217,6 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="md:flex">
           <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
@@ -208,44 +248,6 @@ export default function Portfolio() {
                 </a>
                 <a
                   href="https://github.com/MpAlfano/Social-Network-API"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Github Repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
-            <div className="lg:flex lg:items-center">
-              <div className="lg:flex-shrink-0">
-                <img
-                  className="rounded-lg lg:w-64"
-                  src={[proj6]}
-                  alt="J.A.T.E"
-                />
-              </div>
-              <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="uppercase tracking-wide text-md font-bold">
-                  Just A Text Editor
-                </div>
-                <p>
-                  A progressive web application that uses service workers. A
-                  user can edit the text field and it will update when they
-                  click off the box and store locally. The user can also
-                  download the application and use it offline.
-                </p>
-                <a
-                  href="https://text-edit-or.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Project
-                </a>
-                <a
-                  href="https://github.com/MpAlfano/Text-Editor"
                   target="_blank"
                   rel="noreferrer"
                   className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
