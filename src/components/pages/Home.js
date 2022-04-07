@@ -12,7 +12,7 @@ export default function Home() {
           <div className="bg-sky-200">
             <p>
               Hello my name is Mark, I'm an ambitious Full-Stack Developer
-              looking for new opportunites to grow and enjoy tackling new
+              looking for new opportunities to grow and enjoy tackling new
               challenges. Previously I operated my owned landscaping business
               for over seven years before deciding I wanted to pursue coding. I
               am very goal orientated and enjoy the planning process almost as

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-sky-600 to-teal-700 flex items-center py-5 h-24 bg-black text-white justify-between">
+    <footer className="bg-gradient-to-r from-sky-600 to-teal-700 flex items-center h-36 md:h-24 lg:h-24 bg-black text-white justify-between">
       <div className="container mx-auto">
         <div className="md:flex">
           <div className="flex-1 text-black text-center items-center">
@@ -12,7 +12,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-linkedin text-4xl md:text-5xl lg:text-6xl"></i>
+              <i className="fa-brands fa-linkedin text-3xl md:text-5xl lg:text-6xl"></i>
             </a>
             <a
               className="px-5"
@@ -20,7 +20,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-github text-4xl md:text-5xl lg:text-6xl"></i>
+              <i className="fa-brands fa-github text-3xl md:text-5xl lg:text-6xl"></i>
             </a>
             <a
               className="px-5"
@@ -28,9 +28,9 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-regular fa-envelope text-4xl md:text-5xl lg:text-6xl"></i>
+              <i className="fa-regular fa-envelope text-3xl md:text-5xl lg:text-6xl"></i>
             </a>
-            <i className="fa fa-phone text-xl lg:text-3xl" aria-hidden="true">
+            <i className="fa fa-phone text-lg lg:text-3xl" aria-hidden="true">
               <p className="text-base md:text-lg lg:text-xl">905 407 7178</p>
             </i>
 
