@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.eae51f73.css",
-    "main.js": "/React-Portfolio/static/js/main.26a420d2.js",
+    "main.js": "/React-Portfolio/static/js/main.a8a83aa7.js",
     "static/media/proj2.png": "/React-Portfolio/static/media/proj2.55ddafcf96e2bff2f74d.png",
     "static/media/bio.jpg": "/React-Portfolio/static/media/bio.53cc8b482d145d4b00d0.jpg",
     "static/media/nature2.jpg": "/React-Portfolio/static/media/nature2.71c63c0c4ec0c5a8a1da.jpg",
@@ -10,15 +10,15 @@
     "static/media/proj4.png": "/React-Portfolio/static/media/proj4.d678fe96c79264e3f592.png",
     "static/media/gitfit.png": "/React-Portfolio/static/media/gitfit.c0de9a666df78426c575.png",
     "static/media/proj5.png": "/React-Portfolio/static/media/proj5.2c5c02688c3135a709a8.png",
-    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.c355d6d08e119c459488.pdf",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.4b21409d32669de179b2.pdf",
     "static/media/proj3.png": "/React-Portfolio/static/media/proj3.15cab0319e4e79943789.png",
     "static/media/resumeContd.png": "/React-Portfolio/static/media/resumeContd.175cd4e46c4bdff7c8ed.png",
     "index.html": "/React-Portfolio/index.html",
     "main.eae51f73.css.map": "/React-Portfolio/static/css/main.eae51f73.css.map",
-    "main.26a420d2.js.map": "/React-Portfolio/static/js/main.26a420d2.js.map"
+    "main.a8a83aa7.js.map": "/React-Portfolio/static/js/main.a8a83aa7.js.map"
   },
   "entrypoints": [
     "static/css/main.eae51f73.css",
-    "static/js/main.26a420d2.js"
+    "static/js/main.a8a83aa7.js"
   ]
 }
