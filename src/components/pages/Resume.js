@@ -26,6 +26,7 @@ export default function Resume() {
                 aria-hidden="true"
               ></i>
             </a>
+            <br></br>
             <img
               className="object-fit: fill"
               src={resumeContd}
