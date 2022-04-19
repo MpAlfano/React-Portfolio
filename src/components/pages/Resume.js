@@ -1,6 +1,6 @@
 import React from "react";
 import resume from "../images/resume.png";
-import resumeContd from "../images/resumeContd.png";
+// import resumeContd from "../images/resumeContd.png"; - Left in for resume when it exceeds one page add new image
 import resumeDL from "../documents/resume.pdf";
 
 export default function Resume() {
@@ -18,7 +18,7 @@ export default function Resume() {
               <i class="absolute top-0 left-0 fa-solid fa-file-arrow-down fa-2x"></i>
             </a>
             <a
-              href="https://docs.google.com/document/d/1JsoZcsLvNx4fg44zmpp8WyoN9u1XbHO5BfQEyyE8jRE/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1OBvrRbjsU4XBIBU20Y7tHCKF7pcfPNET1sDf4flLhfE/edit?usp=sharing"
               target="blank_"
             >
               <i
@@ -27,11 +27,11 @@ export default function Resume() {
               ></i>
             </a>
             <br></br>
-            <img
+            {/* <img
               className="object-fit: fill"
               src={resumeContd}
               alt="biography"
-            ></img>
+            ></img> */}
           </div>
         </div>
       </div>
