@@ -40,14 +40,12 @@ export default function Contact() {
           <h1 className="text-4xl">Contact</h1>
           <br></br>
           <div>
-            <p className="text-2xl">
-              Fill out this form to send me an email message.
-            </p>
+            <p className="text-2xl">Fill out this form to send me an email.</p>
             <br></br>
             <section className="">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="contact">
-                  <label>Name:</label>
+                  <label>Enter your name or company info:</label>
                   <br></br>
                   <input
                     className="user_name w-1/2"
@@ -59,7 +57,7 @@ export default function Contact() {
                 </div>
                 <br></br>
                 <div>
-                  <label>Email:</label>
+                  <label>Enter your contact info:</label>
                   <br></br>
                   <input
                     className="user_email w-1/2 required:border-red-500"
@@ -93,6 +91,10 @@ export default function Contact() {
                   </button>
                 </div>
               </form>
+              <br></br>
+              <div className="text-xl">
+                You can also email me anytime at mpalfano4@gmail.com
+              </div>
             </section>
           </div>
         </div>
