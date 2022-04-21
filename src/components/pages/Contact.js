@@ -34,9 +34,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="container mt-5 mx-auto px-2">
+    <div className="container mt-5 mx-auto px-1">
       <div className="md:flex">
-        <div className="flex-1 text-black text-center px-5 py-5">
+        <div className="flex-1 text-black text-center px-2 py-2">
           <h1 className="text-4xl">Contact</h1>
           <br></br>
           <div>
@@ -48,7 +48,7 @@ export default function Contact() {
                   <label>Enter your name or company info:</label>
                   <br></br>
                   <input
-                    className="user_name w-1/2"
+                    className="user_name w-full lg:w-1/2"
                     type="text"
                     name="user_name"
                     required
@@ -60,7 +60,7 @@ export default function Contact() {
                   <label>Enter your contact info:</label>
                   <br></br>
                   <input
-                    className="user_email w-1/2 required:border-red-500"
+                    className="user_email w-full lg:w-1/2 required:border-red-500"
                     name="user_email"
                     type="email"
                     required
@@ -72,7 +72,7 @@ export default function Contact() {
                   <label>Message here:</label>
                   <br></br>
                   <textarea
-                    className="message w-full h-36"
+                    className="message w-full lg:w-2/3 h-36"
                     type="text"
                     name="message"
                     required
@@ -92,7 +92,7 @@ export default function Contact() {
                 </div>
               </form>
               <br></br>
-              <div className="text-xl">
+              <div className="text-2xl">
                 You can also email me anytime at mpalfano4@gmail.com
               </div>
             </section>
