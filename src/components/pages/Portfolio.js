@@ -14,7 +14,7 @@ export default function Portfolio() {
       </h1>
       <div className="container mt-5 mx-auto px-2">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img className="rounded-lg lg:w-64" src={gitfit} alt="GitFit" />
@@ -50,7 +50,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -92,7 +92,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -132,7 +132,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -173,7 +173,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -213,7 +213,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-teal-600 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img

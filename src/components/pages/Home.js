@@ -18,7 +18,7 @@ export default function Home() {
                   alt="GitFit"
                 />
               </div>
-              <div className="mt-4 px-2">
+              <div className="mt-4 px-2 text-state md:text-lg lg:text-lg">
                 <p>
                   Hello my name is Mark, I'm an ambitious Full-Stack Developer
                   looking for new opportunities to grow and enjoy tackling new
@@ -34,29 +34,49 @@ export default function Home() {
                   day I will be working with you.
                 </p>
               </div>
+              <br></br>
             </div>
             <div className="">
-              <h1 className="text-2xl">My Skills:</h1>
-              <div className="grid sm:grid-cols-auto md:grid-cols-2 lg:-grid-cols-2">
-                <div className="bg-green-300">
-                  <h1 className="text-lg font-bold">Languages & Tools</h1>
-                  <ul>
+              <h1 className="text-3xl">My Skills:</h1>
+              <br></br>
+              <div className="bg-teal-400 border-2 border-black rounded-2xl">
+                <h1 className="text-lg font-bold">Languages & Tools:</h1>
+                <ul className="text-lg">
+                  <li>JavaScript</li>
+                  <li>MySQL & NoSQL</li>
+                  <li>GraphQL & REST</li>
+                  <li>Git & Github</li>
+                  <li>TDD using Jest</li>
+                  <li>OOP & ORM</li>
+                </ul>
+              </div>
+              <br></br>
+              <div className="grid sm:grid-cols-auto md:grid-cols-2 lg:-grid-cols-2 gap-6">
+                <div className="bg-teal-400 border-2 border-black rounded-2xl">
+                  <h1 className="text-lg font-bold">Languages & Tools:</h1>
+                  <ul className="text-lg">
                     <li>JavaScript</li>
                     <li>MySQL & NoSQL</li>
-                    <li>Git</li>
-                    <li>Test Driven Development</li>
+                    <li>GraphQL & REST</li>
+                    <li>Git & Github</li>
+                    <li>TDD using Jest</li>
+                    <li>OOP & ORM</li>
                   </ul>
                 </div>
 
-                <div className="bg-green-300">
-                  <h1 className="text-lg font-bold">Frameworks</h1>
-                  <ul>
+                <div className="bg-teal-400 border-2 border-black rounded-2xl">
+                  <h1 className="text-lg font-bold">Frameworks:</h1>
+                  <ul className="text-lg">
                     <li>React</li>
+                    <li>Node</li>
+                    <li>Express</li>
                     <li>TaliwindCSS</li>
                     <li>BootStrap</li>
+                    <li>Handlebars</li>
                   </ul>
                 </div>
               </div>
+              <br></br>
             </div>
           </div>
         </div>
