@@ -9,11 +9,11 @@ export default function Home() {
       </h1>
       <div className="container mt-2 mx-auto">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center rounded">
+          <div className="flex-1 text-black text-center">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
-                  className="rounded-lg lg:w-64"
+                  className="lg:w-96 rounded-full"
                   src={profPicture}
                   alt="GitFit"
                 />
@@ -40,14 +40,16 @@ export default function Home() {
               <h1 className="text-3xl">My Skills:</h1>
               <br></br>
               <div className="bg-teal-400 border-2 border-black rounded-2xl">
-                <h1 className="text-lg font-bold">Languages & Tools:</h1>
-                <ul className="text-lg">
-                  <li>JavaScript</li>
-                  <li>MySQL & NoSQL</li>
-                  <li>GraphQL & REST</li>
-                  <li>Git & Github</li>
-                  <li>TDD using Jest</li>
-                  <li>OOP & ORM</li>
+                <ul className="text-lg grid sm:grid-cols-auto md:grid-cols-3 lg:-grid-cols-3">
+                  <li>Critical Thinking</li>
+                  <li>Adaptability</li>
+                  <li>Teamwork</li>
+                  <li>An Eye for Detail</li>
+                  <li>Problem Solving</li>
+                  <li>Communication</li>
+                  <li>Listening</li>
+                  <li>Project Management</li>
+                  <li>Personal Development</li>
                 </ul>
               </div>
               <br></br>
