@@ -12,12 +12,23 @@ export default function Portfolio() {
       <h1 className="text-center font-bold text-4xl text-black">
         Portfolio Page
       </h1>
-      <div className="container mt-5 mx-auto px-2">
+      <div className="container mt-5 mx-auto px-1">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img className="rounded-lg lg:w-64" src={gitfit} alt="GitFit" />
+                <h1 className="font-bold">Technologies Used:</h1>
+                <ul className="grid grid-cols-2">
+                  <li>MERN Stack</li>
+                  <li>GraphQL</li>
+                  <li>Apollo</li>
+                  <li>React</li>
+                  <li>JavaScript</li>
+                  <li>TailwindCSS</li>
+                  <li>Express</li>
+                  <li>Node</li>
+                </ul>
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-md font-bold">
@@ -31,26 +42,28 @@ export default function Portfolio() {
                   their own profile. Users can also view exercises with
                   descriptions and an embedded how to video.
                 </p>
-                <a
-                  href="https://gitfit-2.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Project
-                </a>
-                <a
-                  href="https://github.com/nkrilis/GitFit-2.0"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Github Repo
-                </a>
+                <div className="grid grid-cols-2">
+                  <a
+                    href="https://gitfit-2.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Project
+                  </a>
+                  <a
+                    href="https://github.com/nkrilis/GitFit-2.0"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Github Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -58,6 +71,17 @@ export default function Portfolio() {
                   src={proj1}
                   alt="Pick & Mix"
                 />
+                <h1 className="font-bold">Technologies Used:</h1>
+                <ul className="grid grid-cols-2">
+                  <li>MySql</li>
+                  <li>Node</li>
+                  <li>Express</li>
+                  <li>REST</li>
+                  <li>Sequelize</li>
+                  <li>Handlebars</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                </ul>
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-md font-bold">
@@ -71,28 +95,30 @@ export default function Portfolio() {
                   the items. Other features include the current date being
                   displayed and a search bar to filter items.
                 </p>
-                <a
-                  href="https://pick-n-mix.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Project
-                </a>
-                <a
-                  href="https://github.com/MpAlfano/pick-n-mix"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Github Repo
-                </a>
+                <div className="grid grid-cols-2">
+                  <a
+                    href="https://pick-n-mix.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Project
+                  </a>
+                  <a
+                    href="https://github.com/MpAlfano/pick-n-mix"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Github Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -100,6 +126,15 @@ export default function Portfolio() {
                   src={proj2}
                   alt="Off The Couch"
                 />
+                <h1 className="font-bold">Technologies Used:</h1>
+                <ul className="grid grid-cols-2">
+                  <li>MapQuest API</li>
+                  <li>Bored API</li>
+                  <li>SerpStack API</li>
+                  <li>Bootstrap</li>
+                  <li>JavaScript</li>
+                  <li>JQuery</li>
+                </ul>
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-md font-bold">
@@ -113,26 +148,28 @@ export default function Portfolio() {
                   who can't decide what do order. Uses API's to get location,
                   search google and generate a random actvity.
                 </p>
-                <a
-                  href="https://mpalfano.github.io/Off-the-couch-personal/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Project
-                </a>
-                <a
-                  href="https://github.com/MpAlfano/Off-the-couch-personal"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Github Repo
-                </a>
+                <div className="grid grid-cols-2">
+                  <a
+                    href="https://mpalfano.github.io/Off-the-couch-personal/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Project
+                  </a>
+                  <a
+                    href="https://github.com/MpAlfano/Off-the-couch-personal"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Github Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -140,6 +177,14 @@ export default function Portfolio() {
                   src={proj3}
                   alt="Team Profile Generator"
                 />
+                <h1 className="font-bold">Technologies Used:</h1>
+                <ul className="grid grid-cols-2">
+                  <li>TDD with Jest</li>
+                  <li>Node</li>
+                  <li>Javascript</li>
+                  <li>Inquirer</li>
+                  <li>Bootstrap</li>
+                </ul>
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-md font-bold">
@@ -152,28 +197,30 @@ export default function Portfolio() {
                   cooresponding information. Once the user is finished the HTML
                   page will be generated for them.
                 </p>
-                <a
-                  href="https://drive.google.com/file/d/1SEgfOOYlcsP_NGAnhDHhQlTAogMmE3SJ/view"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Deployed Project
-                </a>
-                <a
-                  href="https://github.com/MpAlfano/Team-Profile-Generator"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Github Repo
-                </a>
+                <div className="grid grid-cols-2">
+                  <a
+                    href="https://drive.google.com/file/d/1SEgfOOYlcsP_NGAnhDHhQlTAogMmE3SJ/view"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Project
+                  </a>
+                  <a
+                    href="https://github.com/MpAlfano/Team-Profile-Generator"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Github Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="md:flex">
-          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -181,6 +228,15 @@ export default function Portfolio() {
                   src={proj4}
                   alt="Employee Tracker Back-end"
                 />
+                <h1 className="font-bold">Technologies Used:</h1>
+                <ul className="grid grid-cols-2">
+                  <li>MySQL</li>
+                  <li>Sequelize</li>
+                  <li>Node</li>
+                  <li>Express</li>
+                  <li>Javascript</li>
+                  <li>Inquirer</li>
+                </ul>
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-md font-bold">
@@ -194,26 +250,28 @@ export default function Portfolio() {
                   view their database information such as all employees or
                   departments as needed.
                 </p>
-                <a
-                  href="https://drive.google.com/file/d/14MFCAClaN5ZHQJUiS2FZ12bAQRH9YpNB/view"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Project
-                </a>
-                <a
-                  href="https://github.com/MpAlfano/Social-Network-API"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Github Repo
-                </a>
+                <div className="grid grid-cols-2">
+                  <a
+                    href="https://drive.google.com/file/d/14MFCAClaN5ZHQJUiS2FZ12bAQRH9YpNB/view"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Project
+                  </a>
+                  <a
+                    href="https://github.com/MpAlfano/Employee-Tracker"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Github Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-5 py-5 m-2 rounded">
+          <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded">
             <div className="lg:flex lg:items-center">
               <div className="lg:flex-shrink-0">
                 <img
@@ -221,6 +279,15 @@ export default function Portfolio() {
                   src={proj5}
                   alt="Social-Network-API"
                 />
+                <h1 className="font-bold">Technologies Used:</h1>
+                <ul className="grid grid-cols-2">
+                  <li>MongoDB</li>
+                  <li>Mongoose</li>
+                  <li>Node</li>
+                  <li>Express</li>
+                  <li>Javascript</li>
+                  <li>dayjs</li>
+                </ul>
               </div>
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="uppercase tracking-wide text-md font-bold">
@@ -234,22 +301,24 @@ export default function Portfolio() {
                   updated in the database. Reactions can be added to thoughts
                   and users can also add friends.
                 </p>
-                <a
-                  href="https://drive.google.com/file/d/1DKWWVOzsYXXoT9VpF7elQkfQbeLTxfZC/view"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Project
-                </a>
-                <a
-                  href="https://github.com/MpAlfano/Social-Network-API"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-300"
-                >
-                  Github Repo
-                </a>
+                <div className="grid grid-cols-2">
+                  <a
+                    href="https://drive.google.com/file/d/1DKWWVOzsYXXoT9VpF7elQkfQbeLTxfZC/view"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Project
+                  </a>
+                  <a
+                    href="https://github.com/MpAlfano/Social-Network-API"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block mt-1 text-lg leading-tight font-semibold hover:text-sky-500"
+                  >
+                    Github Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
