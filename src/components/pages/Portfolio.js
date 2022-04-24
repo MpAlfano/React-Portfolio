@@ -90,12 +90,12 @@ export default function Portfolio() {
                   Off The Couch
                 </div>
                 <p>
-                  Project that allows a user with limited time find something to
-                  do nearby. They can choose an activity from a list or have one
-                  randomly generated based on the users location. Their is also
-                  an option to generate a random restaurant for a hungry user
-                  who can't decide what do order. Uses API's to get location,
-                  search google and generate a random actvity.
+                  Project that helps a user with limited free time find
+                  something to do nearby. They can choose an activity from a
+                  list or have one randomly generated. A hungry user can choose
+                  to have a random restaurant generated, an option for those who
+                  can't decide what to eat. Application uses API's to get
+                  location, search google and generate a random actvity.
                 </p>
                 <div className="grid grid-cols-2">
                   <a
@@ -148,9 +148,9 @@ export default function Portfolio() {
                   Full-stack project that uses a database to populate grocery
                   items for a user to browse through. A user can sign up and
                   begin adding items to their list. The user can also view that
-                  list to update item quantity, remove items and also remove all
-                  the items. Other features include the current date being
-                  displayed and a search bar to filter items.
+                  list to update item quantity, remove an item or remove all the
+                  items. Other features include the current date being displayed
+                  and a search bar to filter items.
                 </p>
                 <div className="grid grid-cols-2">
                   <a
@@ -247,12 +247,12 @@ export default function Portfolio() {
                   Employee Tracker
                 </div>
                 <p>
-                  Back-end application that can be used to store eployee
+                  Back-end application that can be used to store employee
                   information into a database. A user can create job titles,
                   assign managers and add multiple employees to different
                   departments. They can also update any fields neccessary and
-                  view their database information such as all employees or
-                  departments as needed.
+                  view their database information, such as all employees or
+                  departments.
                 </p>
                 <div className="grid grid-cols-2">
                   <a
