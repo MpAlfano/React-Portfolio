@@ -11,16 +11,19 @@ const Dropdown = ({ isOpen, toggle }) => {
       }
       onClick={toggle}
     >
-      <Link className="p-1 border-t-2 border-x-2" to="/React-Portfolio">
+      <Link
+        className="text-sm sm:text-base p-0.5 border-t-2 border-x-2"
+        to="/React-Portfolio"
+      >
         About Me
       </Link>
-      <Link className="p-1 border-2" to="Portfolio">
+      <Link className="text-sm sm:text-base p-0.5 border-2" to="Portfolio">
         Portfolio
       </Link>
-      <Link className="p-1 border-x-2" to="Contact">
+      <Link className="text-sm sm:text-base p-0.5 border-x-2" to="Contact">
         Contact
       </Link>
-      <Link className="p-1 border-2" to="Resume">
+      <Link className="text-sm sm:text-base p-0.5 border-2" to="Resume">
         Resume
       </Link>
     </div>

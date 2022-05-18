@@ -22,16 +22,15 @@ export default function Home() {
                 <p>
                   Hello my name is Mark, I'm an ambitious Full-Stack Developer
                   looking for new opportunities to grow and enjoy tackling new
-                  challenges. Previously I operated my owned landscaping
-                  business for over seven years before deciding I wanted to
-                  pursue coding. I am very goal orientated and enjoy the
-                  planning process almost as much as working on or completing a
-                  project. I have always been intrigued by programming. With
-                  interests in how everything is bulit and what other new apps
-                  could be made to improve our way of life. I really enjoy
-                  creating new things and thinking of new ways to complete tasks
-                  more efficiently. I look forward to my future and maybe one
-                  day I will be working with you.
+                  challenges. Previously I owned and operated a landscaping
+                  business before deciding I wanted to pursue coding. I am very
+                  goal orientated and enjoy the planning process almost as much
+                  as working on or completing a project. I have always been
+                  intrigued by programming. With interests in how everything is
+                  bulit and what other new apps could be made to improve our way
+                  of life. I really enjoy creating new things and thinking of
+                  new ways to complete tasks more efficiently. I look forward to
+                  my future and maybe one day I will be working with you.
                 </p>
               </div>
               <br></br>
