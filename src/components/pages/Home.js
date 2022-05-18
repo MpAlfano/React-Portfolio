@@ -3,7 +3,7 @@ import profPicture from "..//images/bio.jpg";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <h1 className="text-center font-bold text-xl lg:text-4xl text-black">
         About Me
       </h1>
@@ -11,9 +11,9 @@ export default function Home() {
         <div className="md:flex">
           <div className="flex-1 text-black text-center">
             <div className="lg:flex lg:items-center">
-              <div className="lg:flex-shrink-0">
+              <div className="flex justify-center lg:flex-shrink-0">
                 <img
-                  className="lg:w-96 rounded-full"
+                  className="w-72 lg:w-80 rounded-full p-2"
                   src={profPicture}
                   alt="GitFit"
                 />
@@ -28,17 +28,18 @@ export default function Home() {
                   as working on or completing a project. I have always been
                   intrigued by programming. With interests in how everything is
                   bulit and what other new apps could be made to improve our way
-                  of life. I really enjoy creating new things and thinking of
-                  new ways to complete tasks more efficiently. I look forward to
-                  my future and maybe one day I will be working with you.
+                  of life. I really enjoy creating applications and coming up
+                  with new ways to complete tasks more efficiently. I look
+                  forward to my future and maybe one day I will be working with
+                  you.
                 </p>
               </div>
               <br></br>
             </div>
-            <div className="">
+            <div className="px-2">
               <h1 className="text-3xl">My Skills:</h1>
               <br></br>
-              <div className="bg-teal-400 border-2 border-black rounded-2xl">
+              <div className="bg-teal-400 rounded-2xl">
                 <ul className="text-lg grid sm:grid-cols-auto md:grid-cols-3 lg:-grid-cols-3">
                   <li>Critical Thinking</li>
                   <li>Adaptability</li>
@@ -53,7 +54,7 @@ export default function Home() {
               </div>
               <br></br>
               <div className="grid sm:grid-cols-auto md:grid-cols-2 lg:-grid-cols-2 gap-6">
-                <div className="bg-teal-400 border-2 border-black rounded-2xl">
+                <div className="bg-teal-400 rounded-2xl">
                   <h1 className="text-lg font-bold">Languages & Tools:</h1>
                   <ul className="text-lg">
                     <li>JavaScript</li>
@@ -65,7 +66,7 @@ export default function Home() {
                   </ul>
                 </div>
 
-                <div className="bg-teal-400 border-2 border-black rounded-2xl">
+                <div className="bg-teal-400 rounded-2xl">
                   <h1 className="text-lg font-bold">Frameworks:</h1>
                   <ul className="text-lg">
                     <li>React</li>

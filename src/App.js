@@ -8,6 +8,11 @@ import Home from "./components/pages/Home";
 import Resume from "./components/pages/Resume";
 import Dropdown from "./components/Dropdown";
 
+import TestAbout from "./components/pages/TestAbout";
+import TestContact from "./components/pages/TestContact";
+import TestNav from "./components/pages/TestNav";
+import TestPortfolio from "./components/pages/TestPortfolio";
+
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -30,18 +35,24 @@ const App = () => {
   });
 
   return (
-    <BrowserRouter>
-      <Header toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Routes>
-        <Route path="/React-Portfolio" element={<Home />} exact />
-        <Route path="/Contact" element={<Contact />} exact />
-        <Route path="/Portfolio" element={<Portfolio />} exact />
-        <Route path="/Resume" element={<Resume />} exact />
-        {/* <Route element={<ErrorPage />} Add in later maybe?*/}
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Header toggle={toggle} />
+    //   <Dropdown isOpen={isOpen} toggle={toggle} />
+    //   <Routes>
+    //     <Route path="/React-Portfolio" element={<Home />} exact />
+    //     <Route path="/Contact" element={<Contact />} exact />
+    //     <Route path="/Portfolio" element={<Portfolio />} exact />
+    //     <Route path="/Resume" element={<Resume />} exact />
+    //     {/* <Route element={<ErrorPage />} Add in later maybe?*/}
+    //   </Routes>
+    //   <Footer />
+    // </BrowserRouter>
+    <main>
+      <TestNav />
+      <TestAbout />
+      <TestPortfolio />
+      <TestContact />
+    </main>
   );
 };
 export default App;
