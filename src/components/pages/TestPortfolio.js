@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function TestPortfolio() {
-  return <div className="h-screen bg-green-700">TestPortfolio</div>;
+  return (
+    <div className="h-screen bg-green-700" id="portfolio">
+      TestPortfolio
+    </div>
+  );
 }

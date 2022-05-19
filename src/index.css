@@ -8,21 +8,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .profPic {
-    display: flex;
-    margin: 15px auto !important;
-    width: 24rem;
-    border: 1px solid black;
-    border-radius: 8px;
-  }
-}
-
-@media (min-width: 768px) {
-  .profDiv {
-    display: flex;
-    flex-direction: column;
-    font-variant: JIS04;
-    margin: 0 auto;
-  }
+.navbar > .active {
+  border-bottom: 1px solid white
 }
