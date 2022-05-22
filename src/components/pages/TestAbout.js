@@ -1,9 +1,12 @@
 import React from "react";
-import profPicture from "..//images/bio.jpg";
+import profPicture from "../images/bio.jpg";
 
 export default function TestAbout() {
   return (
-    <div className="h-screen bg-orange-400" id="about">
+    <div
+      className="h-screen bg-cover bg-[url('../src/components/images/nature2.jpg')]"
+      id="about"
+    >
       <h1 className="text-center font-bold text-xl lg:text-4xl text-black">
         About Me
       </h1>
@@ -36,39 +39,34 @@ export default function TestAbout() {
               </div>
               <br></br>
             </div>
-            <div className="px-2">
+            <div className="px-24">
               <h1 className="text-3xl">My Skills:</h1>
+              <h1 className="text-lg font-bold">
+                Languages, Frameworks & Tools:
+              </h1>
               <br></br>
-              <div className="bg-teal-400 rounded-2xl">
-                <ul className="text-lg grid sm:grid-cols-auto md:grid-cols-3 lg:-grid-cols-3">
-                  <li>Critical Thinking</li>
-                  <li>Adaptability</li>
-                  <li>Teamwork</li>
-                  <li>An Eye for Detail</li>
-                  <li>Problem Solving</li>
-                  <li>Communication</li>
-                  <li>Listening</li>
-                  <li>Project Management</li>
-                  <li>Personal Development</li>
-                </ul>
-              </div>
-              <br></br>
-              <div className="grid sm:grid-cols-auto md:grid-cols-2 lg:-grid-cols-2 gap-6">
-                <div className="bg-teal-400 rounded-2xl">
-                  <h1 className="text-lg font-bold">Languages & Tools:</h1>
-                  <ul className="text-lg">
+              <container className="grid-flow-row">
+                <div className="flex flex-row bg-teal-400 rounded-2xl">
+                  <ul className="bg-teal-200 testDiv">
+                    <li>Critical Thinking</li>
+                    <li>Adaptability</li>
+                    <li>Teamwork</li>
+                    <li>An Eye for Detail</li>
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                    <li>Listening</li>
+                    <li>Project Management</li>
+                    <li>Personal Development</li>
+                  </ul>
+
+                  <ul className="grid grid-cols-2">
                     <li>JavaScript</li>
                     <li>MySQL & NoSQL</li>
                     <li>GraphQL & REST</li>
                     <li>Git & Github</li>
                     <li>TDD using Jest</li>
                     <li>OOP & ORM</li>
-                  </ul>
-                </div>
 
-                <div className="bg-teal-400 rounded-2xl">
-                  <h1 className="text-lg font-bold">Frameworks:</h1>
-                  <ul className="text-lg">
                     <li>React</li>
                     <li>Node</li>
                     <li>Express</li>
@@ -77,7 +75,7 @@ export default function TestAbout() {
                     <li>Handlebars</li>
                   </ul>
                 </div>
-              </div>
+              </container>
               <br></br>
             </div>
           </div>
