@@ -3,16 +3,13 @@ import profPicture from "../images/bio.jpg";
 
 export default function TestAbout() {
   return (
-    <div
-      className="h-screen bg-cover bg-[url('../src/components/images/nature2.jpg')]"
-      id="about"
-    >
+    <div className="h-screen bg-cover bg-red-200" id="about">
       <h1 className="text-center font-bold text-xl lg:text-4xl text-black">
         About Me
       </h1>
       <div className="container mt-2 mx-auto">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center">
+          <div className="flex-1 text-center">
             <div className="lg:flex lg:items-center">
               <div className="flex justify-center lg:flex-shrink-0">
                 <img
@@ -21,20 +18,20 @@ export default function TestAbout() {
                   alt="GitFit"
                 />
               </div>
-              <div className="mt-4 px-2 text-state md:text-lg lg:text-lg">
+              <div className="mt-4 px-2 text-state md:text-lg lg:text-lg font-semibold">
                 <p>
                   Hello my name is Mark, I'm an ambitious Full-Stack Developer
                   looking for new opportunities to grow and enjoy tackling new
                   challenges. Previously I owned and operated a landscaping
-                  business before deciding I wanted to pursue coding. I am very
-                  goal orientated and enjoy the planning process almost as much
-                  as working on or completing a project. I have always been
-                  intrigued by programming. With interests in how everything is
-                  bulit and what other new apps could be made to improve our way
-                  of life. I really enjoy creating applications and coming up
-                  with new ways to complete tasks more efficiently. I look
-                  forward to my future and maybe one day I will be working with
-                  you.
+                  business before deciding I wanted to pursue coding. Recently
+                  finished a full stack coding bootcamp and feel empowered by my
+                  new knowledge. I am very goal orientated and enjoy the
+                  planning process almost as much as working on or completing a
+                  project. I have always been intrigued by programming. With
+                  interests in how everything is bulit and what other new apps
+                  could be made to improve our way of life. I enjoy creating
+                  applications and coming up with new ways to complete tasks
+                  more efficiently.
                 </p>
               </div>
               <br></br>

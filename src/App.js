@@ -9,6 +9,7 @@ import Resume from "./components/pages/Resume";
 import Dropdown from "./components/Dropdown";
 
 import TestAbout from "./components/pages/TestAbout";
+import TestHome from "./components/pages/TestHome";
 import TestContact from "./components/pages/TestContact";
 import TestNav from "./components/pages/TestNav";
 import TestPortfolio from "./components/pages/TestPortfolio";
@@ -49,6 +50,7 @@ const App = () => {
     // </BrowserRouter>
     <main>
       <TestNav />
+      <TestHome />
       <TestAbout />
       <TestPortfolio />
       <TestContact />
