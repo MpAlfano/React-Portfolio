@@ -11,15 +11,15 @@ export default function TestHome() {
         <div className="md:flex">
           <div className="flex-1 text-center">
             <div className="lg:flex lg:items-center">
-              <div className="flex justify-center lg:flex-shrink-0 mt-24">
+              <div className="flex justify-center lg:flex-shrink-0">
                 <img
-                  className="w-72 lg:w-80 rounded-full p-2"
+                  className="w-72 lg:w-80 rounded-full p-2 mt-24"
                   src={profPicture}
                   alt="GitFit"
                 />
               </div>
               <div className="mt-12 px-16 text-state md:text-lg lg:text-lg font-semibold">
-                <p className="bg-sky-200 rounded-lg">
+                <p className="bg-sky-200 rounded-lg opacity-75">
                   Hello my name is Mark, I'm an ambitious Full-Stack Developer
                   looking for new opportunities to grow and enjoy tackling new
                   challenges. Previously I owned and operated a landscaping
