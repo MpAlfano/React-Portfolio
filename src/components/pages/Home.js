@@ -15,7 +15,7 @@ export default function Home() {
                 <img
                   className="w-72 lg:w-80 rounded-full p-2"
                   src={profPicture}
-                  alt="GitFit"
+                  alt="Prof Pic"
                 />
               </div>
               <div className="mt-4 px-2 text-state md:text-lg lg:text-lg">

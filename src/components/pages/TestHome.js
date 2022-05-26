@@ -9,17 +9,17 @@ export default function TestHome() {
     >
       <div className="container mx-auto">
         <div className="md:flex">
-          <div className="flex-1 text-center pt-24">
+          <div className="flex-1 text-center pt-8 md:pt-24">
             <div className="lg:flex lg:items-center dividerHome">
               <div className="flex justify-center lg:flex-shrink-0">
                 <img
-                  className="w-72 lg:w-80 rounded-full p-2"
+                  className="w-44 md:w-72 lg:w-80 rounded-full p-2"
                   src={profPicture}
-                  alt="GitFit"
+                  alt="Prof Pic"
                 />
               </div>
-              <div className="mt-12 px-16 text-state md:text-lg lg:text-lg font-semibold">
-                <p className="mb-20 ml-4 bg-sky-200 rounded-lg opacity-80">
+              <div className="mt-4 md:mt-12 px-4 md:px-16 text-state md:text-lg lg:text-lg font-semibold">
+                <p className="mb-20 ml-4 bg-sky-200 rounded-lg opacity-90">
                   Hello my name is Mark, I'm an ambitious Full-Stack Developer
                   looking for new opportunities to grow and enjoy tackling new
                   challenges. Previously I owned and operated a landscaping
