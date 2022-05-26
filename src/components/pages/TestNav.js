@@ -3,7 +3,7 @@ import { Link, animateScroll } from "react-scroll";
 
 export default function TestNav() {
   return (
-    <div className="fixed top-0 w-full inline">
+    <div className="fixed top-0 w-full inline z-50">
       <ul className="flex justify-end p-2 pr-10 ">
         <li className="px-2 navbar">
           <Link
