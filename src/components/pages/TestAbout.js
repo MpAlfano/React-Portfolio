@@ -3,13 +3,15 @@ import React from "react";
 export default function TestAbout() {
   return (
     <div className="h-screen bg-green-700" id="about">
-      <main class="wrapper">
-        <section className="h-1/2 text-gray-200">
-          <p className="pt-8 md:pt-16 sm:pt-12 text-state md:text-lg md:pr-12 md:pl-12 lg:text-xl lg:pl-96 lg:pr-24 bg-black">
-            Previously I owned and operated a landscaping business before
-            deciding I wanted to pursue coding. Recently finished a full stack
-            coding bootcamp and feel empowered by my newly acquired skills.
-            <p className="pt-2 md:pt-4 pl-4 sm:pl-36 lg:pl-24">
+      <main class="wrapper h-screen">
+        <section className="flex flex-col-1 h-1/2 sm:h-1/2 text-gray-200">
+          <div className="text-state lg:text-lg bg-black md:px-10 pt-8">
+            <p className="md:pt-5 lg:pt-10 lg:px-22 lg: pb-4">
+              Previously I owned and operated a landscaping business before
+              deciding I wanted to pursue coding. Recently finished a full stack
+              coding bootcamp and feel empowered by my newly acquired skills.
+            </p>
+            <p className="md:pl-24 lg:pl-60">
               I am very goal orientated and enjoy the planning process almost as
               much as working on or completing a project. I have always been
               intrigued by programming, with interests in how everything is
@@ -17,9 +19,9 @@ export default function TestAbout() {
               life. I enjoy coming up with new ways to complete tasks more
               efficiently.
             </p>
-          </p>
+          </div>
         </section>
-        <section className="h-3/4">
+        <section className="flex h-1/2 sm:h-3/4">
           <div className="pl-1 mt-6 md:pl-4 lg:pl-40 md:mt-36 lg:mt-32">
             <h1 className="text-3xl font-bold">Skills</h1>
             <br></br>

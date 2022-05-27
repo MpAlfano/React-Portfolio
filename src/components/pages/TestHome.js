@@ -22,16 +22,7 @@ export default function TestHome() {
                 <p className="mb-20 ml-4 bg-sky-200 rounded-lg opacity-90">
                   Hello my name is Mark, I'm an ambitious Full-Stack Developer
                   looking for new opportunities to grow and enjoy tackling new
-                  challenges. Previously I owned and operated a landscaping
-                  business before deciding I wanted to pursue coding. Recently
-                  finished a full stack coding bootcamp and feel empowered by my
-                  new knowledge. I am very goal orientated and enjoy the
-                  planning process almost as much as working on or completing a
-                  project. I have always been intrigued by programming. With
-                  interests in how everything is bulit and what other new apps
-                  could be made to improve our way of life. I enjoy creating
-                  applications and coming up with new ways to complete tasks
-                  more efficiently.
+                  challenges.
                 </p>
               </div>
               <br></br>
