@@ -3,60 +3,65 @@ import React from "react";
 export default function TestAbout() {
   return (
     <div className="h-screen bg-green-700" id="about">
-      <main class="wrapper h-screen">
-        <section className="flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
-          <div className="text-sm md:text-lg px-1 md:px-10 pt-8">
-            <p className="md:pt-5 lg:pt-10 lg:px-22 lg: md:pb-4">
-              Previously I owned and operated a landscaping business before
-              deciding I wanted to pursue coding. Recently finished a full stack
-              coding bootcamp and feel empowered by my newly acquired skills.
-            </p>
-            <p className="md:pl-24 lg:pl-60 md:pr-32">
-              I am very goal orientated and enjoy the planning process almost as
-              much as working on or completing a project. I have always been
-              intrigued by programming, with interests in how everything is
-              bulit and what other new apps could be made to improve our way of
-              life. I enjoy coming up with new ways to complete tasks more
-              efficiently.
-            </p>
+      <main className="h-screen">
+        <section className="top flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
+          <div className="">
+            <div className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-8">
+              <p className="md:pt-5 lg:pt-10 lg:px-22 lg: md:pb-4">
+                Previously I owned and operated a landscaping business before
+                deciding I wanted to pursue coding. Recently I finished a full
+                stack coding bootcamp and feel empowered by my newly acquired
+                skills.
+              </p>
+              <p className="md:pl-24 lg:pl-60 md:pr-8">
+                I am very goal orientated and enjoy the planning process almost
+                as much as working on or completing a project. I have always
+                been intrigued by programming, with interests in how everything
+                is bulit and what other new apps could be made to improve our
+                way of life. I enjoy coming up with new ways to complete tasks
+                more efficiently.
+              </p>
+            </div>
           </div>
         </section>
-        <section className="flex md:h-1/2">
-          <div className="invisible md:visible pl-1 mt-10 md:pl-4 lg:pl-24 md:mt-16">
-            <h1 className="text-3xl font-bold">Skills</h1>
+        <section className="bottom md:flex h-3/4">
+          <div className="pl-1 pt-8 mt-20 md:pl-4 lg:pl-24 md:mt-32 lg:mt-28">
+            <h1 className="text-xl md:text-3xl xl:text-4xl font-bold">
+              Skills
+            </h1>
             <br></br>
-            <div className="grid rounded-2xl text-xl lg:text-2xl font-semibold mt-2">
-              <ul className="grid grid-cols-4 lg:grid-cols-5 pb-3">
+            <div className="grid text-base lg:text-2xl xl:text-3xl font-semibold -mt-4 md:mt-2">
+              <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pb-1 md:pb-3">
                 <li>Problem Solving </li>
                 <li>Project Management</li>
               </ul>
-              <ul className="grid grid-cols-4 lg:grid-cols-5 pb-3">
+              <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 pb-1 md:pb-3">
                 <li>Critical Thinking</li>
-                <li>Listening</li>
+                <li className="ml-4">Listening</li>
                 <li>Adaptability</li>
               </ul>
-              <ul className="grid grid-cols-4 lg:grid-cols-5 pb-4">
+              <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 pb-1 md:pb-4">
                 <li>Communication</li>
                 <li>An Eye for Detail</li>
-                <li>Teamwork</li>
-                <li className="col-span-2 -ml-12 md:col-span-1">
+                <li className="pb-1 md:pb-0">Teamwork</li>
+                <li className="col-span-2 md:-ml-12 md:col-span-1">
                   Personal Development
                 </li>
               </ul>
             </div>
-            <div className="grid text-xl pt-10">
-              <h1 className="text-3xl font-bold">
+
+            <div className="grid pt-4 md:pt-10">
+              <h1 className="text-xl md:text-3xl xl:text-4xl font-bold">
                 Languages, Tools & Frameworks
               </h1>
-              <br></br>
-              <div className="grid rounded-2xl text-xl lg:text-2xl font-semibold mt-5">
-                <ul className="grid md:grid-cols-5 lg:grid-cols-7 text-center pb-2">
+              <div className="grid text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold mt-4 md:mt-7">
+                <ul className="grid grid-cols-5 lg:grid-cols-7 text-center pb-1 md:pb-2">
                   <li>
                     <span className="px-0.5 bg-black text-white">
                       JavaScript
                     </span>
                   </li>
-                  <li>
+                  <li className="pl-4 md:pl-0">
                     <span className="px-0.5 bg-black text-white">React</span>
                   </li>
                   <li className="md:pb-2">
@@ -69,14 +74,14 @@ export default function TestAbout() {
                     <span className="px-0.5 bg-black text-white">Node</span>
                   </li>
                 </ul>
-                <ul className="grid md:grid-cols-5 lg:grid-cols-7 text-center pb-2">
+                <ul className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 text-center pb-1 md:pb-2">
                   <li className="md:pb-2">
                     <span className="px-0.5 bg-black text-white">Express</span>
                   </li>
                   <li>
                     <span className="px-0.5 bg-black text-white">MySql</span>
                   </li>
-                  <li className="md:pb-2">
+                  <li className="pb-1 md:pb-2">
                     <span className="px-0.5 bg-black text-white">MongoDB</span>
                   </li>
                   <li>
@@ -88,7 +93,7 @@ export default function TestAbout() {
                     </span>
                   </li>
                 </ul>
-                <ul className="grid md:grid-cols-6 lg:grid-cols-7 text-center">
+                <ul className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 text-center">
                   <li className="md:pb-2">
                     <span className="px-0.5 bg-black text-white">
                       TDD with Jest
@@ -97,7 +102,7 @@ export default function TestAbout() {
                   <li>
                     <span className="px-0.5 bg-black text-white">Git</span>
                   </li>
-                  <li>
+                  <li className="pb-1 md:pb-0">
                     <span className="px-0.5 bg-black text-white">Github</span>
                   </li>
                   <li>
