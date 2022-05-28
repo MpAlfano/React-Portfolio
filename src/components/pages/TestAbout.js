@@ -4,14 +4,14 @@ export default function TestAbout() {
   return (
     <div className="h-screen bg-green-700" id="about">
       <main class="wrapper h-screen">
-        <section className="flex flex-col-1 h-1/2 sm:h-1/2 text-gray-200">
-          <div className="text-state lg:text-lg bg-black md:px-10 pt-8">
-            <p className="md:pt-5 lg:pt-10 lg:px-22 lg: pb-4">
+        <section className="flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
+          <div className="text-sm md:text-lg px-1 md:px-10 pt-8">
+            <p className="md:pt-5 lg:pt-10 lg:px-22 lg: md:pb-4">
               Previously I owned and operated a landscaping business before
               deciding I wanted to pursue coding. Recently finished a full stack
               coding bootcamp and feel empowered by my newly acquired skills.
             </p>
-            <p className="md:pl-24 lg:pl-60">
+            <p className="md:pl-24 lg:pl-60 md:pr-32">
               I am very goal orientated and enjoy the planning process almost as
               much as working on or completing a project. I have always been
               intrigued by programming, with interests in how everything is
@@ -21,27 +21,27 @@ export default function TestAbout() {
             </p>
           </div>
         </section>
-        <section className="flex h-1/2 sm:h-3/4">
-          <div className="pl-1 mt-6 md:pl-4 lg:pl-40 md:mt-36 lg:mt-32">
+        <section className="flex md:h-1/2">
+          <div className="invisible md:visible pl-1 mt-10 md:pl-4 lg:pl-24 md:mt-16">
             <h1 className="text-3xl font-bold">Skills</h1>
             <br></br>
-            <div className="grid rounded-2xl text-xl lg:text-2xl font-semibold mt-5 pr-10">
-              <ul className="grid grid-cols-4 lg:grid-cols-7 text-center pb-2">
+            <div className="grid rounded-2xl text-xl lg:text-2xl font-semibold mt-2">
+              <ul className="grid grid-cols-4 lg:grid-cols-5 pb-3">
                 <li>Problem Solving </li>
-                <li className="sm:col-span-2 sm:pr-16">Project Management</li>
+                <li>Project Management</li>
               </ul>
-              <ul className="grid grid-cols-4 lg:grid-cols-7 text-center pb-2">
-                <li className="">Critical Thinking</li>
-                <li className="">Listening</li>
-                <li className="col-span-2 sm:col-span-2 sm:pr-16">
+              <ul className="grid grid-cols-4 lg:grid-cols-5 pb-3">
+                <li>Critical Thinking</li>
+                <li>Listening</li>
+                <li>Adaptability</li>
+              </ul>
+              <ul className="grid grid-cols-4 lg:grid-cols-5 pb-4">
+                <li>Communication</li>
+                <li>An Eye for Detail</li>
+                <li>Teamwork</li>
+                <li className="col-span-2 -ml-12 md:col-span-1">
                   Personal Development
                 </li>
-              </ul>
-              <ul className="grid grid-cols-4 lg:grid-cols-7 text-center pb-4">
-                <li>Communication</li>
-                <li className="sm:px-2">An Eye for Detail</li>
-                <li>Teamwork</li>
-                <li>Adaptability</li>
               </ul>
             </div>
             <div className="grid text-xl pt-10">
@@ -49,8 +49,8 @@ export default function TestAbout() {
                 Languages, Tools & Frameworks
               </h1>
               <br></br>
-              <div className="grid rounded-2xl text-2xl font-semibold mt-5">
-                <ul className="grid md:grid-cols-3 lg:grid-cols-7 text-center pb-2">
+              <div className="grid rounded-2xl text-xl lg:text-2xl font-semibold mt-5">
+                <ul className="grid md:grid-cols-5 lg:grid-cols-7 text-center pb-2">
                   <li>
                     <span className="px-0.5 bg-black text-white">
                       JavaScript
@@ -69,7 +69,7 @@ export default function TestAbout() {
                     <span className="px-0.5 bg-black text-white">Node</span>
                   </li>
                 </ul>
-                <ul className="grid md:grid-cols-3 lg:grid-cols-7 text-center pb-2">
+                <ul className="grid md:grid-cols-5 lg:grid-cols-7 text-center pb-2">
                   <li className="md:pb-2">
                     <span className="px-0.5 bg-black text-white">Express</span>
                   </li>
@@ -88,10 +88,10 @@ export default function TestAbout() {
                     </span>
                   </li>
                 </ul>
-                <ul className="grid md:grid-cols-3 lg:grid-cols-7 text-center">
+                <ul className="grid md:grid-cols-6 lg:grid-cols-7 text-center">
                   <li className="md:pb-2">
                     <span className="px-0.5 bg-black text-white">
-                      TDD using Jest
+                      TDD with Jest
                     </span>
                   </li>
                   <li>

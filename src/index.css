@@ -12,22 +12,9 @@
   border-bottom: 1px solid white
 }
 
-.divider {
-
-  background-image: 
-  /* url('/src/components/images/about2.jpg'), */
-  /* -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0); */
-  /* clip-path: polygon(0% 0%, 100% 0%, 100% 55%, 0% 22%); */
-  linear-gradient(12deg, #EADEDB 0%, #BC70A4 55%, #BFD641 55%)
-
-  /* background-image: url('/src/components/images/about1.jpg'); */
-  /* clip-path: polygon(0% 0%, 100% 0%, 100% 45%, 0% 78%); */
-
-}
-
 
 .wrapper section:first-child {
-  background: url('/src/components/images/about2.jpg') center;
+  background: black;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
 }
 
@@ -37,24 +24,13 @@
   clip-path: polygon(1 0, 100% 0, 100% 100%, 0 100%);
 }
 
-/* .wrapper section:first-child {
-  background: url(https://picsum.photos/id/1016/800/800) center/cover;
-}
-
-.wrapper section:last-child {
-  margin-left: -20vw;
-  clip-path: polygon(20vw 0, 100% 0, 100% 100%, 0 100%);
-  background: url(https://picsum.photos/id/1064/800/800) center/cover;
-} */
-
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .wrapper section:first-child {
-    background: url(https://picsum.photos/id/1016/800/800) center/cover;
+    background: black;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%)
   }
   
   .wrapper section:last-child {
     background: url('/src/components/images/about3.jpg') center/cover;
   }
 }
-
-@media only screen and (min-width: 768) {}
