@@ -4,29 +4,27 @@ import profPicture from "../images/bio.jpg";
 export default function TestHome() {
   return (
     <div
-      className="h-screen bg-cover bg-[url('../src/components/images/nature2.jpg')]"
+      className="h-screen flex bg-cover bg-[url('../src/components/images/nature2.jpg')]"
       id="home"
     >
-      <div className="container mx-auto">
-        <div className="md:flex">
-          <div className="flex-1 text-center pt-8 md:pt-24">
-            <div className="lg:flex lg:items-center dividerHome">
-              <div className="flex justify-center lg:flex-shrink-0">
-                <img
-                  className="w-44 md:w-72 lg:w-80 rounded-full p-2"
-                  src={profPicture}
-                  alt="Prof Pic"
-                />
-              </div>
-              <div className="mt-4 md:mt-12 px-4 md:px-16 text-state md:text-lg lg:text-lg font-semibold">
-                <p className="mb-20 ml-4 bg-sky-200 rounded-lg opacity-90">
-                  Hello my name is Mark, I'm an ambitious Full-Stack Developer
-                  looking for new opportunities to grow and enjoy tackling new
-                  challenges.
-                </p>
-              </div>
-              <br></br>
+      <div className="flex content-center justify-center align-middle mx-auto">
+        <div className="flex content-center justify-center align-middle">
+          <div className="grid lg:flex items-center text-center justify-center pt-10 md:pt-0 md:pb-24">
+            <div className="flex justify-center lg:flex-shrink-0 px-12 -mb-20">
+              <img
+                className="w-60 md:w-72 lg:w-80 rounded-full p-1"
+                src={profPicture}
+                alt="Prof Pic"
+              />
             </div>
+            <div className="px-10 text-state md:text-lg lg:text-lg font-semibold">
+              <p className="bg-sky-200 rounded-lg opacity-90">
+                Hello my name is Mark, I'm an ambitious Full-Stack Developer
+                looking for new opportunities to grow and enjoy tackling new
+                challenges.
+              </p>
+            </div>
+            <br></br>
           </div>
         </div>
       </div>
