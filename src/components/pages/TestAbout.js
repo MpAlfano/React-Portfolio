@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TestAbout() {
   return (
-    <div className="h-screen bg-green-700" id="about">
+    <div className="h-screen" id="about">
       <main className="h-screen">
         <section className="top flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
           <div className="">
@@ -24,13 +24,12 @@ export default function TestAbout() {
             </div>
           </div>
         </section>
-        <section className="bottom md:flex h-3/4">
-          <div className="pl-1 pt-8 mt-20 md:pl-4 lg:pl-24 md:mt-32 lg:mt-28">
-            <h1 className="text-xl md:text-3xl xl:text-4xl font-bold">
+        <section className="bottom h-3/4">
+          <div className="pl-1 pt-12 mt-12 md:pl-4 lg:pl-24 md:mt-32 lg:pt-20 lg:mt-28">
+            <h1 className="text-xl md:text-3xl xl:text-4xl font-bold underline">
               Skills
             </h1>
-            <br></br>
-            <div className="grid text-base lg:text-2xl xl:text-3xl font-semibold -mt-4 md:mt-2">
+            <div className="grid text-base lg:text-2xl xl:text-3xl font-semibold pt-2 md:mt-2">
               <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pb-1 md:pb-3">
                 <li>Problem Solving </li>
                 <li>Project Management</li>
@@ -50,9 +49,11 @@ export default function TestAbout() {
               </ul>
             </div>
 
-            <div className="grid pt-4 md:pt-10">
+            <div className="grid pt-2 md:pt-10">
               <h1 className="text-xl md:text-3xl xl:text-4xl font-bold">
-                Languages, Tools & Frameworks
+                <span className="px-0.5 bg-black text-white underline">
+                  Languages, Tools & Frameworks
+                </span>
               </h1>
               <div className="grid text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold mt-4 md:mt-7">
                 <ul className="grid grid-cols-5 lg:grid-cols-7 text-center pb-1 md:pb-2">

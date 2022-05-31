@@ -42,7 +42,7 @@
   }
   
   .bottom {
-    margin-top: -25vh;
+    margin-top: -33vh;
     background: url('/src/components/images/about3.jpg') center/cover;
     clip-path: polygon(1 0, 100% 0, 100% 100%, 0 100%);
   }
@@ -51,11 +51,11 @@
 @media only screen and (min-width: 872px) {
   .top {
     background: black;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 54%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 63%);
   }
   
   .bottom {
-    margin-top: -25vh;
+    margin-top: -33vh;
     background: url('/src/components/images/about3.jpg') center/cover;
     clip-path: polygon(1 0, 100% 0, 100% 100%, 0 100%);
   }
