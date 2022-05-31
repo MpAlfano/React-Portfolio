@@ -32,6 +32,18 @@ export default function TestNav() {
         <li className="px-2 navbar">
           <Link
             activeClass="active"
+            to="portfolio2"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Portfolio
+          </Link>
+        </li>
+        <li className="px-2 navbar">
+          <Link
+            activeClass="active"
             to="contact"
             spy={true}
             smooth={true}
