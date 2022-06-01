@@ -1,26 +1,26 @@
 import React from "react";
 import { Link, animateScroll } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Bio from "../images/favicon.png";
 
 export default function TestNav() {
   return (
-    <nav className="w-24 h-screen fixed top-0 text-blue-500 z-50">
+    <nav className="w-20 h-screen fixed top-0 bg-gray-300 z-50">
+      <Link
+        activeClass="active"
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+      >
+        <img src={Bio} alt="name" />
+        {/* About */}
+      </Link>
       <div className="navItem">
-        <Link
-          activeClass="active"
-          to="home"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-        >
-          <img src={Bio} alt="name" />
-          {/* About */}
-        </Link>
         <Link
           activeClass="active"
           to="about"
@@ -77,8 +77,7 @@ export default function TestNav() {
           {/* Contact */}
         </Link>
       </div>
-
-      <ul>
+      <ul className="contacts">
         <li>
           <a
             href="https://www.linkedin.com/in/markalfano"
@@ -97,12 +96,14 @@ export default function TestNav() {
             <FontAwesomeIcon icon={faGithub} color="4d4d4e" />
           </a>
         </li>
-        <a href="mailto: mpalfano4@gmail.com" target="_blank" rel="noreferrer">
-          <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
-        </a>
-
         <li>
-          <FontAwesomeIcon icon={faPhone} color="4d4d4e" />
+          <a
+            href="mailto: mpalfano4@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
+          </a>
         </li>
       </ul>
     </nav>
