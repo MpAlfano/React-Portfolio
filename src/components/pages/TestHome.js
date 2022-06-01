@@ -17,8 +17,8 @@ export default function TestHome() {
                 alt="Prof Pic"
               />
             </div>
-            <div className="px-10 md:text-lg lg:text-xl font-semibold">
-              <p className="bg-sky-200 rounded-lg opacity-90">
+            <div className="px-10 md:text-xl lg:text-2xl font-semibold">
+              <p className="bg-sky-200 rounded-lg opacity-90" id="bio">
                 Hello my name is Mark, I'm an ambitious Full-Stack Developer
                 looking for new opportunities to grow and enjoy tackling new
                 challenges.

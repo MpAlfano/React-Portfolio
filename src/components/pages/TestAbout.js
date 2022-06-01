@@ -6,7 +6,10 @@ export default function TestAbout() {
       <main className="h-screen">
         <section className="top flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
           <div className="">
-            <div className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-8">
+            <div
+              className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-8"
+              id="bio"
+            >
               <p className="md:pt-5 lg:pt-10 lg:px-22 lg: md:pb-4">
                 Previously I owned and operated a landscaping business before
                 deciding I wanted to pursue coding. Recently I finished a full

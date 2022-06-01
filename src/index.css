@@ -23,6 +23,14 @@
   clip-path: polygon(1 0, 100% 0, 100% 100%, 0 100%);
 }
 
+#bio {
+animation: fadeIn 1s 1.2s backwards;
+}
+
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
 
 @media only screen and (max-width: 768px) {
   .top {

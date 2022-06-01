@@ -7,7 +7,7 @@ import gitfit from "../images/gitfit.png";
 export default function TestPortfolio() {
   return (
     <div className="h-screen bg-green-700" id="portfolio">
-      <div className="container mt-5 mx-auto px-1">
+      <div className="container mx-auto px-1">
         <div className="md:flex">
           <div className="flex-1 text-black text-center bg-teal-400 hover:border-dashed border-2 border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded-lg">
             <div className="lg:flex lg:items-center">
