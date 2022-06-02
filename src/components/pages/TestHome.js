@@ -10,14 +10,14 @@ export default function TestHome() {
       <div className="flex content-center justify-center align-middle mx-auto">
         <div className="flex">
           <div className="grid lg:flex items-center text-center justify-center pt-10 md:pt-0 md:pb-24">
-            <div className="flex justify-center lg:flex-shrink-0 px-12 -mb-20">
+            <div className="flex justify-center lg:flex-shrink-0 md:pl-16 lg:pl-32 -mb-20">
               <img
                 className="w-60 md:w-72 lg:w-80 rounded-full p-1"
                 src={profPicture}
                 alt="Prof Pic"
               />
             </div>
-            <div className="px-10 md:text-xl lg:text-2xl font-semibold">
+            <div className="flex justify-center pl-12 md:pl-32 lg:pl-16 pr-12 md:text-xl lg:text-2xl font-semibold">
               <p className="bg-sky-200 rounded-lg opacity-90" id="bio">
                 Hello my name is Mark, I'm an ambitious Full-Stack Developer
                 looking for new opportunities to grow and enjoy tackling new

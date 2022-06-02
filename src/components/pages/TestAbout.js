@@ -5,7 +5,7 @@ export default function TestAbout() {
     <main className="h-screen" id="about">
       <section className="top flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
         <div
-          className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-6 md:ml-20"
+          className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-8 md:ml-20"
           id="bio"
         >
           <p className="md:pt-5 lg:pt-10 lg:px-22 md:pb-4">
