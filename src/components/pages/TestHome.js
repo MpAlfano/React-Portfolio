@@ -18,7 +18,7 @@ export default function TestHome() {
               />
             </div>
             <div className="flex justify-center pl-12 md:pl-32 lg:pl-16 pr-12 md:text-xl lg:text-2xl font-semibold">
-              <p className="bg-sky-200 rounded-lg opacity-90">
+              <p className="bg-sky-200 rounded-lg opacity-90" id="bio">
                 Hello my name is Mark, I'm an ambitious Full-Stack Developer
                 looking for new opportunities to grow and enjoy tackling new
                 challenges.

@@ -8,7 +8,7 @@ import Bio from "../images/favicon.png";
 
 export default function TestNav() {
   return (
-    <nav className="w-20 h-screen fixed top-0 bg-gray-300 z-50">
+    <nav className="w-20 h-screen fixed top-0 bg-gradient-to-b from-neutral-500 via-cyan-400 to-neutral-500 z-50">
       <Link
         activeClass="active"
         to="home"
@@ -29,7 +29,7 @@ export default function TestNav() {
           offset={0}
           duration={500}
         >
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#afc0c4" />
           {/* Portfolio */}
         </Link>
         <Link
@@ -40,7 +40,7 @@ export default function TestNav() {
           offset={0}
           duration={500}
         >
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#afc0c4" />
           {/* Portfolio */}
         </Link>
         <Link
@@ -51,7 +51,7 @@ export default function TestNav() {
           offset={0}
           duration={500}
         >
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#afc0c4" />
           {/* Portfolio */}
         </Link>
         <Link
@@ -62,7 +62,7 @@ export default function TestNav() {
           offset={0}
           duration={500}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#afc0c4" />
           {/* Contact */}
         </Link>
         <Link
@@ -73,7 +73,7 @@ export default function TestNav() {
           offset={0}
           duration={500}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#afc0c4" />
           {/* Contact */}
         </Link>
       </div>
