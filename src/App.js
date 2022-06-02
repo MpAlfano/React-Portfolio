@@ -14,6 +14,7 @@ import TestContact from "./components/pages/TestContact";
 import TestNav from "./components/pages/TestNav";
 import TestPortfolio from "./components/pages/TestPortfolio";
 import TestPortfolio2 from "./components/pages/TestPortfolio2";
+import TestResume from "./components/pages/TestResume";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,6 +56,7 @@ const App = () => {
       <TestAbout />
       <TestPortfolio />
       <TestPortfolio2 />
+      <TestResume />
       <TestContact />
     </main>
   );

@@ -33,23 +33,23 @@ export default function TestAbout() {
           <div className="grid text-base lg:text-2xl xl:text-3xl font-semibold pt-2 md:mt-2">
             <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 pb-1 md:pb-3">
               <li>Problem Solving </li>
-              <li>Project Management</li>
+              <li>Appetite for Knowledge</li>
             </ul>
             <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 pb-1 md:pb-3">
               <li>Critical Thinking</li>
-              <li>Listening</li>
-              <li>Apetite for Knowledge</li>
+              <li>Project Management</li>
               <li>Adaptability</li>
+              <li>Listening</li>
             </ul>
             <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 pb-1 md:pb-4">
               <li>Communication</li>
               <li>An Eye for Detail</li>
               <li className="pb-1 md:pb-0">Teamwork</li>
-              <li className="md:-ml-12 md:col-span-1">Personal Development</li>
+              <li className="">Personal Development</li>
             </ul>
           </div>
 
-          <div className="grid pt-2 lg:pt-6">
+          <div className="grid mt-4 lg:pt-6">
             <h1 className="text-xl md:text-3xl xl:text-4xl font-bold">
               <span className="px-0.5 bg-black text-white underline">
                 Languages, Tools & Frameworks
