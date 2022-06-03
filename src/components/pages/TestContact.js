@@ -1,5 +1,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function TestContact() {
   const form = useRef();
@@ -35,7 +38,7 @@ export default function TestContact() {
 
   return (
     <main className="h-screen" id="contact">
-      <div className="container md:py-20 md:pl-20 mx-auto px-1 pt-10">
+      <div className="container relative md:py-20 md:pl-20 mx-auto px-1 pt-4 md:pt-10">
         <div className="md:flex">
           <div className="flex-1 text-black text-center px-2 py-2">
             <div>
@@ -98,12 +101,40 @@ export default function TestContact() {
                 <div className="text-2xl">
                   You can also email me anytime at mpalfano4@gmail.com
                 </div>
-                <br></br>
-                <div className="text-2xl">Phone: (905) 407-7178</div>
+                <div className="text-2xl pt-2">Phone: (905) 407-7178</div>
               </section>
             </div>
           </div>
         </div>
+        <ul className="contact-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/markalfano"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/MpAlfano"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} color="4d4d4e" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto: mpalfano4@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
+            </a>
+          </li>
+        </ul>
       </div>
     </main>
   );

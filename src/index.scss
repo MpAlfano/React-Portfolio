@@ -140,6 +140,29 @@ img {
 animation: fadeIn 1s 1.2s backwards;
 }
 
+.contact-links {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+
+  li {
+    a {
+      padding: 2px 8px;
+      display: block;
+      font-size: 28px;
+      line-height: 16px;
+
+      &:hover svg {
+        color: rgb(20, 78, 240)
+      }
+    }
+
+  }
+}
+
 #portfolio {
   background: url('/components/images/project.jpg') top/cover;
 }
@@ -155,6 +178,14 @@ animation: fadeIn 1s 1.2s backwards;
 
 #contact {
   background: url('/components/images/contact.jpg') center/cover;
+}
+
+@media only screen and (max-width: 280px) {
+
+  #contact {
+    height: fit-content
+  }
+
 }
 
 @media only screen and (max-width: 767px) {

@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, animateScroll } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Bio from "../images/favicon.png";
 
