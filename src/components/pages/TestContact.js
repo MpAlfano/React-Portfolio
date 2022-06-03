@@ -35,7 +35,7 @@ export default function TestContact() {
 
   return (
     <main className="h-screen" id="contact">
-      <div className="container md:py-20 md:pl-16 mx-auto px-1 pt-10">
+      <div className="container md:py-20 md:pl-20 mx-auto px-1 pt-10">
         <div className="md:flex">
           <div className="flex-1 text-black text-center px-2 py-2">
             <div>

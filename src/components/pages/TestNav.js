@@ -66,69 +66,75 @@ export default function TestNav() {
   return (
     <nav className={background} id="nav">
       <Link
+        className="hover:cursor-pointer"
         id="bg-home"
         activeClass="active"
         to="home"
         spy={true}
         smooth={true}
         offset={0}
-        duration={500}
+        duration={2000}
       >
         <img src={Bio} alt="name" />
       </Link>
       <div className="navItem">
         <Link
+          className="hover:cursor-pointer"
           id="bg-about"
           activeClass="active"
           to="about"
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={2000}
         >
           <FontAwesomeIcon icon={faHome} color="#afc0c4" />
         </Link>
         <Link
+          className="hover:cursor-pointer"
           id="bg-proj1"
           activeClass="active"
           to="portfolio"
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={2000}
         >
           <FontAwesomeIcon icon={faHome} color="#afc0c4" />
         </Link>
         <Link
+          className="hover:cursor-pointer"
           id="bg-proj2"
           activeClass="active"
           to="portfolio2"
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={2000}
         >
           <FontAwesomeIcon icon={faHome} color="#afc0c4" />
         </Link>
         <Link
+          className="hover:cursor-pointer"
           id="bg-resume"
           activeClass="active"
           to="resume"
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={2000}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#afc0c4" />
         </Link>
         <Link
+          className="hover:cursor-pointer"
           id="bg-contact"
           activeClass="active"
           to="contact"
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={2000}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#afc0c4" />
         </Link>

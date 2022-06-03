@@ -8,10 +8,10 @@ export default function TestResume() {
     <main className="h-screen" id="resume">
       <div className="mt-1 md:flex justify-center mx-auto px-2">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center md:pl-16 py-5">
+          <div className="flex-1 text-black text-center md:pl-20 py-5">
             <div className="relative">
               <img
-                className="object-fit: fill w-full md:w-11/12"
+                className="object-fill w-full lg:w-full"
                 src={resume}
                 alt="biography"
               ></img>

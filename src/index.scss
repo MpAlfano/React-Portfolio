@@ -119,7 +119,6 @@ img {
   }
 }
 
-
 .navItem > .active {
   svg {
     color: rgb(2, 13, 44)
@@ -141,6 +140,22 @@ img {
 animation: fadeIn 1s 1.2s backwards;
 }
 
+#portfolio {
+  background: url('/components/images/project.jpg') top/cover;
+}
+
+#portfolio2 {
+  background: url('/components/images/about2.jpg') center/cover;
+}
+
+#resume {
+  background: url('/components/images/resume.jpg') center/cover;
+  // Photo by Alexandru Acea on Unsplash
+}
+
+#contact {
+  background: url('/components/images/contact.jpg') center/cover;
+}
 
 @media only screen and (max-width: 767px) {
   .top {
