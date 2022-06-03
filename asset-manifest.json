@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.69d28be5.css",
+    "main.js": "/React-Portfolio/static/js/main.eabd7956.js",
+    "static/media/project.jpg": "/React-Portfolio/static/media/project.93a80a1d072c1bcdff45.jpg",
+    "static/media/about2.jpg": "/React-Portfolio/static/media/about2.00db5d24261ab37d54b8.jpg",
+    "static/media/about3.jpg": "/React-Portfolio/static/media/about3.8e7c7a61a20cbfd9aa15.jpg",
+    "static/media/proj2.png": "/React-Portfolio/static/media/proj2.55ddafcf96e2bff2f74d.png",
+    "static/media/resume.jpg": "/React-Portfolio/static/media/resume.89fb7aa1b3bd7d6d6115.jpg",
+    "static/media/contact.jpg": "/React-Portfolio/static/media/contact.353954ae66810dfbe6bd.jpg",
+    "static/media/bio.jpg": "/React-Portfolio/static/media/bio.53cc8b482d145d4b00d0.jpg",
+    "static/media/proj1.png": "/React-Portfolio/static/media/proj1.895ac57c73825c668317.png",
+    "static/media/nature2.jpg": "/React-Portfolio/static/media/nature2.7e154ded2c1813979150.jpg",
+    "static/media/resume.png": "/React-Portfolio/static/media/resume.f987c33dbd5dec741b79.png",
+    "static/media/proj4.png": "/React-Portfolio/static/media/proj4.d678fe96c79264e3f592.png",
+    "static/media/gitfit.png": "/React-Portfolio/static/media/gitfit.c0de9a666df78426c575.png",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.901433c7894a3b9c1e3e.pdf",
+    "static/media/proj5.png": "/React-Portfolio/static/media/proj5.2c5c02688c3135a709a8.png",
+    "static/media/proj3.png": "/React-Portfolio/static/media/proj3.6935f3e63a6c89a68856.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.69d28be5.css.map": "/React-Portfolio/static/css/main.69d28be5.css.map",
+    "main.eabd7956.js.map": "/React-Portfolio/static/js/main.eabd7956.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69d28be5.css",
+    "static/js/main.eabd7956.js"
+  ]
+}
