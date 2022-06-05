@@ -106,7 +106,7 @@ export default function TestContact() {
             </div>
           </div>
         </div>
-        <ul className="contact-links">
+        <ul className="contact-links md:hidden">
           <li>
             <a
               href="https://www.linkedin.com/in/markalfano"

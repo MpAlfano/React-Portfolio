@@ -16,14 +16,14 @@ export default function TestResume() {
                 alt="biography"
               ></img>
               <a href={resumeDL} download>
-                <i className="absolute top-0 left-0 md:left-7 fa-solid fa-file-arrow-down fa-2x"></i>
+                <i className="absolute top-0 left-0 fa-solid fa-file-arrow-down fa-2x"></i>
               </a>
               <a
                 href="https://docs.google.com/document/d/1OBvrRbjsU4XBIBU20Y7tHCKF7pcfPNET1sDf4flLhfE/edit?usp=sharing"
                 target="blank_"
               >
                 <i
-                  className="absolute top-0 right-0 md:right-7 fa fa-external-link fa-2x"
+                  className="absolute top-0 right-0 fa fa-external-link fa-2x"
                   aria-hidden="true"
                 ></i>
               </a>
