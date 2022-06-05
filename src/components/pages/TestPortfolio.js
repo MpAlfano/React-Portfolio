@@ -15,22 +15,26 @@ export default function TestPortfolio() {
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
-                  <a
-                    href="https://gitfit-2.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-project1 w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Project
-                  </a>
-                  <a
-                    href="https://github.com/nkrilis/GitFit-2.0"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Github Repo
-                  </a>
+                  <div className="bg-project1 w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://gitfit-2.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="button left"
+                    >
+                      Project
+                    </a>
+                  </div>
+                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://github.com/nkrilis/GitFit-2.0"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="button right"
+                    >
+                      Github Repo
+                    </a>
+                  </div>
                 </div>
                 <p className="text-lg lg:text-2xl">
                   MERN stack application utilizing GraphQL and apollo-client to
@@ -63,22 +67,24 @@ export default function TestPortfolio() {
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
-                  <a
-                    href="https://mpalfano.github.io/Off-the-couch-personal/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-project2 w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Project
-                  </a>
-                  <a
-                    href="https://github.com/MpAlfano/Off-The-Couch"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Github Repo
-                  </a>
+                  <div className="bg-project2 w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://mpalfano.github.io/Off-the-couch-personal/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Project
+                    </a>
+                  </div>
+                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://github.com/MpAlfano/Off-The-Couch"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Github Repo
+                    </a>
+                  </div>
                 </div>
                 <p className="text-lg lg:text-2xl">
                   Project that helps a user with limited free time find

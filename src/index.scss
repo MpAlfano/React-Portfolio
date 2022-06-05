@@ -163,6 +163,8 @@ animation: fadeIn 1s 1.2s backwards;
   }
 }
 
+
+
 .bg-project1 {
   background: url('/components/images/gitfit.png') center/cover;
 }
@@ -175,11 +177,21 @@ animation: fadeIn 1s 1.2s backwards;
 .bg-project4 {
   background: url('/components/images/proj5.png') center/cover;
 }
+.bg-project4:hover {
+  -webkit-filter: brightness(90%)
+}
 
 .bg-repo {
   background: url('/components/images/github.png') center/cover;
   margin-left: -10vw;
   clip-path: polygon(10vw 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.bg-repo:hover {
+  background: url('/components/images/github.png') center/cover;
+  margin-left: -10vw;
+  clip-path: polygon(10vw 0, 100% 0, 100% 100%, 0 100%);
+  -webkit-filter: brightness(90%)
 }
 
 #resume {
