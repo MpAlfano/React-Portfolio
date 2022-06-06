@@ -211,6 +211,8 @@ animation: fadeIn 1s 1.2s backwards;
 
 .bg-project1 {
   background: url('/components/images/gitfit.png') center/cover;
+  margin-right: -12vw;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 
   &:hover {
     -webkit-filter: brightness(90%)
@@ -218,6 +220,8 @@ animation: fadeIn 1s 1.2s backwards;
 }
 .bg-project2 {
   background: url('/components/images/proj2.png') center/cover;
+  margin-right: -12vw;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 
   &:hover {
     -webkit-filter: brightness(90%)
@@ -225,6 +229,8 @@ animation: fadeIn 1s 1.2s backwards;
 }
 .bg-project3 {
   background: url('/components/images/proj1.png') center/cover;
+  margin-right: -10vw;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 
   &:hover {
     -webkit-filter: brightness(90%)
@@ -232,6 +238,8 @@ animation: fadeIn 1s 1.2s backwards;
 }
 .bg-project4 {
   background: url('/components/images/proj5.png') center/cover;
+  margin-right: -10vw;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 
   &:hover {
     -webkit-filter: brightness(90%)
@@ -240,8 +248,8 @@ animation: fadeIn 1s 1.2s backwards;
 
 .bg-repo {
   background: url('/components/images/github.png') center/cover;
-  margin-left: -10vw;
-  clip-path: polygon(10vw 0, 100% 0, 100% 100%, 0 100%);
+  // margin-left: -10vw;
+  // clip-path: polygon(10vw 0, 100% 0, 100% 100%, 0 100%);
 
   &:hover {
     -webkit-filter: brightness(90%)

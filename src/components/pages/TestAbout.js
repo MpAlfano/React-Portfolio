@@ -120,11 +120,17 @@ export default function TestAbout() {
         </div>
       </section>
       <footer className="hidden md:flex justify-center -mt-36 lg:-mt-32 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
-        <p className="px-8 bg-gradient-to-r from-neutral-500 via-blue-400 to-neutral-500 md:text-xl lg:text-3xl rounded-full">
-          Pain unlocks a secret doorway in the mind, one that leads to both peak
-          performance, and beautiful silence. - David Goggins
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
+          "Pain unlocks a secret doorway in the mind, one that leads to both
+          peak performance, and beautiful silence." -David Goggins
         </p>
       </footer>
     </main>
   );
 }
+
+// [
+// '“Price is what you pay. Value is what you get.” -Warren Buffet',
+// '“The only thing worse than being blind is having sight but no vision." —Helen Keller',
+// '"Help others achieve their dreams and you will achieve yours." -Les Brown',
+// ]

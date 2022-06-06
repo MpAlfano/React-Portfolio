@@ -7,8 +7,8 @@ export default function TestPortfolio2() {
       id="portfolio2"
     >
       <div className="container md:pl-20 mx-auto">
-        <div className="grid md:gap-y-4 lg:gap-y-10 m-auto">
-          <div className="flex-1 text-black text-center border border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded-lg">
+        <div className="grid m-auto">
+          <div className="flex-1 text-black text-center border border-indigo-600 px-2 py-2 m-2 rounded-lg">
             <div className="uppercase tracking-wide text-md text-2xl font-bold pb-2">
               Pick & Mix
             </div>
@@ -60,7 +60,7 @@ export default function TestPortfolio2() {
               </div>
             </div>
           </div>
-          <div className="flex-1 text-black text-center border border-indigo-600 px-2 lg:px-5 py-2 lg:py-5 m-2 rounded-lg">
+          <div className="flex-1 text-black text-center border border-indigo-600 px-2 lg:px-5 py-2 m-2 rounded-lg">
             <div className="uppercase tracking-wide text-md text-2xl font-bold pb-2">
               Social Network API
             </div>
@@ -112,12 +112,18 @@ export default function TestPortfolio2() {
           </div>
         </div>
       </div>
-      <footer className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center pt-6 z-5">
-        <p className="px-6 bg-gradient-to-r from-neutral-500 via-red-400 to-neutral-500 md:text-xl lg:text-3xl rounded-full">
-          Pain unlocks a secret doorway in the mind, one that leads to both peak
-          performance, and beautiful silence. - David Goggins
+      <footer className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
+          "Give me a lever long enough and a fulcrum on which to place it, and I
+          shall move the world." -Archimedes
         </p>
       </footer>
     </div>
   );
 }
+
+// [
+//   '"I think it's very important to have a feedback loop, where you're
+// constantly thinking about what you've done and how you could be doing
+// it better." -Elon Musk'
+// ]
