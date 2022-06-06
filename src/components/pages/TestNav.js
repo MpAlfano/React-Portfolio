@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faUserLarge,
+  faEnvelope,
+  faFile,
+  faFolderOpen,
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Bio from "../images/favicon.png";
 
@@ -22,7 +27,6 @@ export default function TestNav() {
         );
       }
       if (currentScrollY >= height && currentScrollY < height * 2) {
-        console.log(true);
         setBackground(
           "w-20 h-screen fixed bg-gradient-to-b from-neutral-500 via-blue-400 to-neutral-500 top-0 z-50"
         );
@@ -77,7 +81,7 @@ export default function TestNav() {
           offset={0}
           duration={2000}
         >
-          <FontAwesomeIcon icon={faHome} color="#afc0c4" />
+          <FontAwesomeIcon icon={faUserLarge} color="#afc0c4" />
         </Link>
         <Link
           className="hover:cursor-pointer"
@@ -89,7 +93,7 @@ export default function TestNav() {
           offset={0}
           duration={2000}
         >
-          <FontAwesomeIcon icon={faHome} color="#afc0c4" />
+          <FontAwesomeIcon icon={faFolderOpen} color="#afc0c4" />
         </Link>
         <Link
           className="hover:cursor-pointer"
@@ -101,7 +105,7 @@ export default function TestNav() {
           offset={0}
           duration={2000}
         >
-          <FontAwesomeIcon icon={faHome} color="#afc0c4" />
+          <FontAwesomeIcon icon={faFolderOpen} color="#afc0c4" />
         </Link>
         <Link
           className="hover:cursor-pointer"
@@ -113,7 +117,7 @@ export default function TestNav() {
           offset={0}
           duration={2000}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#afc0c4" />
+          <FontAwesomeIcon icon={faFile} color="#afc0c4" />
         </Link>
         <Link
           className="hover:cursor-pointer"

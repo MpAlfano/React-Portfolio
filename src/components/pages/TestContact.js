@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -8,7 +8,32 @@ export default function TestContact() {
   const form = useRef();
 
   const [response, responseSet] = useState("");
+  const { innerHeight: height } = window;
 
+  const [quote, setQuote] = useState(
+    `“The world makes room for passionate people.” -Lewis Howes`
+  );
+
+  var x = 0;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const quote1 = `"Accept responsibility for your life. Know that it is you who will get you where you want to go, no one else." -Les Brown`;
+      const quote2 = `"Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment." -Buddha`;
+
+      if (currentScrollY <= height * 4.5 && x !== 1) {
+        x = 2;
+        setQuote(quote1);
+      }
+      if (currentScrollY >= height * 5 && x === 2) {
+        x = 1;
+        setQuote(quote2);
+      }
+      console.log(currentScrollY);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+  }, []);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -49,7 +74,7 @@ export default function TestContact() {
               <section className="">
                 <form ref={form} onSubmit={sendEmail} className="md:pb-16">
                   <div className="contact">
-                    <label className="md:text-lg">
+                    <label className="md:text-lg xl:text-xl">
                       Enter your name or company info:
                     </label>
                     <br></br>
@@ -63,7 +88,7 @@ export default function TestContact() {
                   </div>
                   <br></br>
                   <div>
-                    <label className="md:text-lg">
+                    <label className="md:text-lg xl:text-xl">
                       Enter your contact info:
                     </label>
                     <br></br>
@@ -77,7 +102,9 @@ export default function TestContact() {
                   </div>
                   <br></br>
                   <div>
-                    <label className="md:text-lg">Message here:</label>
+                    <label className="md:text-lg xl:text-xl">
+                      Message here:
+                    </label>
                     <br></br>
                     <textarea
                       className="message w-full lg:w-2/3 h-36"
@@ -98,10 +125,12 @@ export default function TestContact() {
                     </button>
                   </div>
                 </form>
-                <div className="text-2xl">
+                <div className="text-2xl xl:text-3xl">
                   You can also email me anytime at mpalfano4@gmail.com
                 </div>
-                <div className="text-2xl pt-2">Phone: (905) 407-7178</div>
+                <div className="text-2xl xl:text-3xl pt-2">
+                  Phone: (905) 407-7178
+                </div>
               </section>
             </div>
           </div>
@@ -138,15 +167,9 @@ export default function TestContact() {
       </div>
       <footer className="hidden md:flex justify-center px-2 pt-40 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-yellow-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
-          “The world makes room for passionate people.” -Lewis Howes
+          {quote}
         </p>
       </footer>
     </main>
   );
 }
-
-// [
-//  '"Other people's opinion of you does not have to become your reality." -Les Brown',
-//  '"Accept responsibility for your life. Know that it is you who will get you where you want to go, no one else." -Les Brown',
-//  '"Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment." -Buddha'
-// ]

@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function TestAbout() {
+  const { innerHeight: height } = window;
+
+  const [quote, setQuote] =
+    useState(`"Pain unlocks a secret doorway in the mind, one that leads to both
+    peak performance, and beautiful silence." -David Goggins`);
+
+  var x = 0;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const quote1 = `“The only thing worse than being blind is having sight but no vision." —Helen Keller`;
+      const quote2 = `"Help others achieve their dreams and you will achieve yours." -Les Brown`;
+
+      if (currentScrollY > height * 1.5 && x !== 1) {
+        x = 2;
+        setQuote(quote1);
+      }
+      if (currentScrollY <= height && x === 2) {
+        x = 1;
+        setQuote(quote2);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+  }, []);
+
   return (
     <main className="h-screen" id="about">
       <section className="top flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
@@ -121,16 +147,9 @@ export default function TestAbout() {
       </section>
       <footer className="hidden md:flex justify-center -mt-36 lg:-mt-32 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
-          "Pain unlocks a secret doorway in the mind, one that leads to both
-          peak performance, and beautiful silence." -David Goggins
+          {quote}
         </p>
       </footer>
     </main>
   );
 }
-
-// [
-// '“Price is what you pay. Value is what you get.” -Warren Buffet',
-// '“The only thing worse than being blind is having sight but no vision." —Helen Keller',
-// '"Help others achieve their dreams and you will achieve yours." -Les Brown',
-// ]

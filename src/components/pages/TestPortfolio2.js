@@ -1,20 +1,46 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function TestPortfolio2() {
+  const { innerHeight: height } = window;
+
+  const [quote, setQuote] =
+    useState(`"Give me a lever long enough and a fulcrum on which to place it, and I
+    shall move the world." -Archimedes`);
+
+  var x = 0;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const quote1 = `"I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better." -Elon Musk`;
+      const quote2 = `"Other people's opinion of you does not have to become your reality." -Les Brown`;
+
+      if (currentScrollY > height * 3.5 && x !== 1) {
+        x = 2;
+        setQuote(quote1);
+      }
+      if (currentScrollY <= height * 3 && x === 2) {
+        x = 1;
+        setQuote(quote2);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+  }, []);
+
   return (
     <div
       className="grid content-center sm:h-fit sm:min-h-screen md:h-screen bg-gradient-to-b from-orange-200 to-green-100"
       id="portfolio2"
     >
       <div className="container md:pl-20 mx-auto">
-        <div className="grid m-auto">
+        <div className="grid m-auto xl:gap-y-10">
           <div className="flex-1 text-black text-center border border-indigo-600 px-2 py-2 m-2 rounded-lg">
             <div className="uppercase tracking-wide text-md text-2xl font-bold pb-2">
               Pick & Mix
             </div>
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
                   <div className="bg-project3 w-full block mt-1 text-lg leading-tight font-semibold">
                     <a
                       href="https://pick-n-mix.herokuapp.com/"
@@ -66,7 +92,7 @@ export default function TestPortfolio2() {
             </div>
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
                   <div className="bg-project4 w-full block mt-1 text-lg leading-tight font-semibold">
                     <a
                       href="https://drive.google.com/file/d/1DKWWVOzsYXXoT9VpF7elQkfQbeLTxfZC/view"
@@ -114,16 +140,9 @@ export default function TestPortfolio2() {
       </div>
       <footer className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5">
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
-          "Give me a lever long enough and a fulcrum on which to place it, and I
-          shall move the world." -Archimedes
+          {quote}
         </p>
       </footer>
     </div>
   );
 }
-
-// [
-//   '"I think it's very important to have a feedback loop, where you're
-// constantly thinking about what you've done and how you could be doing
-// it better." -Elon Musk'
-// ]

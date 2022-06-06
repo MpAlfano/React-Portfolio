@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import profPicture from "../images/bio.jpg";
 
 export default function TestHome() {
+  const { innerHeight: height } = window;
+
+  const [quote, setQuote] =
+    useState(`"I think it is possible for ordinary people to choose to be
+  extraordinary." -Elon Musk`);
+
+  var x = 0;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const quote1 = `"Three things cannot be long hidden: the sun, the moon, and the truth." -Buddha`;
+      const quote2 = `"I have not failed. I've just found 10,000 ways that won't work." -Thomas A. Edison`;
+
+      if (currentScrollY > height / 2 && x !== 1) {
+        setQuote(quote1);
+      }
+      if (currentScrollY === 0) {
+        x = 1;
+        setQuote(quote2);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+  }, []);
+
   return (
     <div
       className="h-screen flex bg-cover bg-[url('../src/components/images/nature2.jpg')]"
@@ -31,16 +56,9 @@ export default function TestHome() {
       </div>
       <footer className="flex pb-6 lg:pb-8 px-2 md:px-40 md:pr-24 absolute bottom-0 w-full justify-center align-middle text-center z-5">
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-green-400 to-neutral-300 md:text-xl lg:text-3xl font-bold rounded-full">
-          "I think it is possible for ordinary people to choose to be
-          extraordinary." -Elon Musk
+          {quote}
         </p>
       </footer>
     </div>
   );
 }
-
-// [
-//  '“Everyone fails. Highly successful people fail many more times than the rest of the world and with much higher stakes at hand. ―Lewis Howes"',
-//  '"I have not failed. I've just found 10,000 ways that won't work." -Thomas A. Edison'
-//  '"Three things cannot be long hidden: the sun, the moon, and the truth." -Buddha'
-// ];

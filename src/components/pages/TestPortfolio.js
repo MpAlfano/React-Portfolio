@@ -1,20 +1,47 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function TestPortfolio() {
+  const { innerHeight: height } = window;
+
+  const [quote, setQuote] =
+    useState(`"My biggest mistake is probably weighing too much on someone's talent
+    and not someone's personality. I think it matters whether someone has
+    a good heart." -Elon Musk`);
+
+  var x = 0;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const quote1 = `“Everyone fails. Highly successful people fail many more times than the rest of the world and with much higher stakes at hand." ―Lewis Howes`;
+      const quote2 = `“Price is what you pay. Value is what you get.” -Warren Buffet`;
+
+      if (currentScrollY > height * 2.5 && x !== 1) {
+        x = 2;
+        setQuote(quote1);
+      }
+      if (currentScrollY <= height * 2 && x === 2) {
+        x = 1;
+        setQuote(quote2);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+  }, []);
+
   return (
     <div
       className="grid content-center sm:h-fit sm:min-h-screen md:h-screen bg-gradient-to-b from-green-200 to-purple-100"
       id="portfolio"
     >
       <div className="container md:pl-20 mx-auto">
-        <div className="grid m-auto">
+        <div className="grid m-auto xl:gap-y-10">
           <div className="flex-1 text-black text-center border border-indigo-600 px-2 lg:px-5 py-2 m-2 rounded-lg">
             <div className="uppercase tracking-wide text-md text-2xl font-bold lg:pb-1">
               GitFit
             </div>
             <div className="relative lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
                   <div className="bg-project1 w-full block mt-1 text-lg leading-tight font-semibold">
                     <a
                       href="https://gitfit-2.herokuapp.com/"
@@ -66,7 +93,7 @@ export default function TestPortfolio() {
             </div>
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
                   <div className="bg-project2 w-full block mt-1 text-lg leading-tight font-semibold">
                     <a
                       href="https://mpalfano.github.io/Off-the-couch-personal/"
@@ -114,9 +141,7 @@ export default function TestPortfolio() {
       </div>
       <footer className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5">
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-purple-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
-          "My biggest mistake is probably weighing too much on someone's talent
-          and not someone's personality. I think it matters whether someone has
-          a good heart." -Elon Musk
+          {quote}
         </p>
       </footer>
     </div>
