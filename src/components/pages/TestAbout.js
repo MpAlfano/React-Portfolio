@@ -11,7 +11,7 @@ export default function TestAbout() {
           <p className="md:pt-5 lg:pt-10 lg:px-22 md:pb-4">
             Previously owned and operated a landscaping business before deciding
             I wanted to pursue coding. Recently I finished a full stack coding
-            bootcamp and feel empowered by my newly acquired skills. I am Eager
+            bootcamp and feel empowered by my newly acquired skills. I am eager
             to learn new skills and grow as I embark on a new career path.
           </p>
           <p className="md:pl-24 lg:pl-60 md:pr-8">
