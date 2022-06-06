@@ -15,22 +15,26 @@ export default function TestPortfolio2() {
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
-                  <a
-                    href="https://pick-n-mix.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-project3 w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Project
-                  </a>
-                  <a
-                    href="https://github.com/MpAlfano/pick-n-mix"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Github Repo
-                  </a>
+                  <div className="bg-project3 w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://pick-n-mix.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="button left"
+                    >
+                      Project
+                    </a>
+                  </div>
+                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://github.com/MpAlfano/pick-n-mix"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="button right"
+                    >
+                      Github
+                    </a>
+                  </div>
                 </div>
                 <p className="text-lg lg:text-2xl">
                   Full-stack project that uses a database to populate grocery
@@ -63,22 +67,26 @@ export default function TestPortfolio2() {
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
-                  <a
-                    href="https://drive.google.com/file/d/1DKWWVOzsYXXoT9VpF7elQkfQbeLTxfZC/view"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-project4 w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Project
-                  </a>
-                  <a
-                    href="https://github.com/MpAlfano/Social-Network-API"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold"
-                  >
-                    Github Repo
-                  </a>
+                  <div className="bg-project4 w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://drive.google.com/file/d/1DKWWVOzsYXXoT9VpF7elQkfQbeLTxfZC/view"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="button left"
+                    >
+                      Project
+                    </a>
+                  </div>
+                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                    <a
+                      href="https://github.com/MpAlfano/Social-Network-API"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="button right"
+                    >
+                      Github
+                    </a>
+                  </div>
                 </div>
                 <p className="text-lg lg:text-2xl">
                   Back-end application using mongoDB, mongoose and the express

@@ -12,7 +12,7 @@ export default function TestPortfolio() {
             <div className="uppercase tracking-wide text-md text-2xl font-bold lg:pb-2">
               GitFit
             </div>
-            <div className="lg:flex lg:items-center">
+            <div className="relative lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
                 <div className="flex flex-1 h-32 lg:h-52 w-full pb-2 px-12">
                   <div className="bg-project1 w-full block mt-1 text-lg leading-tight font-semibold">
@@ -32,7 +32,7 @@ export default function TestPortfolio() {
                       rel="noreferrer"
                       className="button right"
                     >
-                      Github Repo
+                      Github
                     </a>
                   </div>
                 </div>
@@ -72,6 +72,7 @@ export default function TestPortfolio() {
                       href="https://mpalfano.github.io/Off-the-couch-personal/"
                       target="_blank"
                       rel="noreferrer"
+                      className="button left"
                     >
                       Project
                     </a>
@@ -81,8 +82,9 @@ export default function TestPortfolio() {
                       href="https://github.com/MpAlfano/Off-The-Couch"
                       target="_blank"
                       rel="noreferrer"
+                      className="button right"
                     >
-                      Github Repo
+                      Github
                     </a>
                   </div>
                 </div>
