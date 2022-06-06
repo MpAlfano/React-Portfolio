@@ -11,7 +11,8 @@ export default function TestAbout() {
           <p className="md:pt-5 lg:pt-10 lg:px-22 md:pb-4">
             Previously owned and operated a landscaping business before deciding
             I wanted to pursue coding. Recently I finished a full stack coding
-            bootcamp and feel empowered by my newly acquired skills.
+            bootcamp and feel empowered by my newly acquired skills. I am Eager
+            to learn new skills and grow as I embark on a new career path.
           </p>
           <p className="md:pl-24 lg:pl-60 md:pr-8">
             I am very goal orientated and enjoy the planning process almost as
@@ -118,6 +119,12 @@ export default function TestAbout() {
           </div>
         </div>
       </section>
+      <footer className="hidden md:flex justify-center -mt-36 lg:-mt-32 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
+        <p className="px-8 bg-gradient-to-r from-neutral-500 via-blue-400 to-neutral-500 md:text-xl lg:text-3xl rounded-full">
+          Pain unlocks a secret doorway in the mind, one that leads to both peak
+          performance, and beautiful silence. - David Goggins
+        </p>
+      </footer>
     </main>
   );
 }

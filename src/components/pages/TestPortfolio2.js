@@ -3,7 +3,7 @@ import React from "react";
 export default function TestPortfolio2() {
   return (
     <div
-      className="grid content-center sm:h-fit md:h-screen bg-gradient-to-b from-orange-200 to-green-100"
+      className="grid content-center sm:h-fit sm:min-h-screen md:h-screen bg-gradient-to-b from-orange-200 to-green-100"
       id="portfolio2"
     >
       <div className="container md:pl-20 mx-auto">
@@ -112,6 +112,12 @@ export default function TestPortfolio2() {
           </div>
         </div>
       </div>
+      <footer className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center pt-6 z-5">
+        <p className="px-6 bg-gradient-to-r from-neutral-500 via-red-400 to-neutral-500 md:text-xl lg:text-3xl rounded-full">
+          Pain unlocks a secret doorway in the mind, one that leads to both peak
+          performance, and beautiful silence. - David Goggins
+        </p>
+      </footer>
     </div>
   );
 }

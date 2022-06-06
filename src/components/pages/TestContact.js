@@ -37,7 +37,7 @@ export default function TestContact() {
   };
 
   return (
-    <main className="h-screen" id="contact">
+    <main className="h-screen relative" id="contact">
       <div className="container relative md:py-20 md:pl-20 mx-auto px-1 pt-4 md:pt-10">
         <div className="md:flex">
           <div className="flex-1 text-black text-center px-2 py-2">
@@ -136,6 +136,12 @@ export default function TestContact() {
           </li>
         </ul>
       </div>
+      <footer className="hidden md:flex justify-center px-2 pt-40 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
+        <p className="px-6 bg-gradient-to-r from-neutral-500 via-yellow-400 to-neutral-500 md:text-xl lg:text-3xl rounded-full">
+          Pain unlocks a secret doorway in the mind, one that leads to both peak
+          performance, and beautiful silence. - David Goggins
+        </p>
+      </footer>
     </main>
   );
 }
