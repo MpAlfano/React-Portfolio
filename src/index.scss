@@ -175,23 +175,29 @@ animation: fadeIn 1s 1.2s backwards;
   top:calc(50% - 20px);
 }
 .button:before { 
-  border-right: 60px solid #7e7e7e;
-  border-left: 65px solid #868686;
-  border-bottom: 49px solid transparent;
-  opacity: 0.25;
-}
-
-.button:after {
-  border-right: 66px solid rgb(94, 120, 167);
-  border-top: 0px solid transparent;
-  opacity: 0.5;
+  border-right: 55px solid #575757;
+  border-left: 65px solid #f59999;
+  border-bottom: 51px solid transparent;
+  opacity: 0.45;
 }
 
 .button.left {
   background:rgba(255,255,255,.65);color:#000;
+
+  &:hover {
+    background:rgb(29, 119, 192);
+    color: white;
+    opacity: 0.9;
+  }
 }
 .button.right {
   background:rgba(0,0,0,.85);color:#fff;
+
+  &:hover {
+    background:rgb(51, 202, 157);
+    color: black;
+    opacity: 0.9;
+  }
 }
     
 .button:before, .button:after {
@@ -212,15 +218,24 @@ animation: fadeIn 1s 1.2s backwards;
 }
 .bg-project2 {
   background: url('/components/images/proj2.png') center/cover;
+
+  &:hover {
+    -webkit-filter: brightness(90%)
+  }
 }
 .bg-project3 {
   background: url('/components/images/proj1.png') center/cover;
+
+  &:hover {
+    -webkit-filter: brightness(90%)
+  }
 }
 .bg-project4 {
   background: url('/components/images/proj5.png') center/cover;
-}
-.bg-project4:hover {
-  -webkit-filter: brightness(90%)
+
+  &:hover {
+    -webkit-filter: brightness(90%)
+  }
 }
 
 .bg-repo {
