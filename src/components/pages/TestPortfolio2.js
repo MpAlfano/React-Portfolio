@@ -139,7 +139,7 @@ export default function TestPortfolio2() {
         </div>
       </div>
       <footer className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5">
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 text-lg md:text-xl lg:text-3xl rounded-full">
           {quote}
         </p>
       </footer>

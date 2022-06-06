@@ -62,7 +62,7 @@ export default function TestContact() {
   };
 
   return (
-    <main className="h-screen relative" id="contact">
+    <main className="min-h-screen h-fit md:h-screen relative" id="contact">
       <div className="container relative md:py-20 md:pl-20 mx-auto px-1 pt-4 md:pt-10">
         <div className="md:flex">
           <div className="flex-1 text-black text-center px-2 py-2">
@@ -118,7 +118,7 @@ export default function TestContact() {
                   <div className="mb-2">
                     <p className="text-xl">{response}</p>
                     <button
-                      className="bg-gray-800 hover:bg-gray-700 border-b-4 border-black hover:border-gray-800 text-white text-center py-2 px-4 rounded pb-20px"
+                      className="bg-gray-800 hover:bg-gray-700 border-b-4 border-black hover:border-gray-800 text-white text-center py-2 px-4 rounded md:pb-20px"
                       type="submit"
                     >
                       Send email
@@ -165,7 +165,7 @@ export default function TestContact() {
           </li>
         </ul>
       </div>
-      <footer className="hidden md:flex justify-center px-2 pt-40 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
+      <footer className="flex justify-center px-2 py-6 md:pt-40 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-yellow-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
           {quote}
         </p>
