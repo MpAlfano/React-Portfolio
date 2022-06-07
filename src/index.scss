@@ -137,7 +137,7 @@ img {
 }
 
 #bio {
-animation: fadeIn 1s 1.2s backwards, rubberBand 1s 2s;
+animation: fadeIn 1s 1.2s backwards, zoomOut 1s 2s, fadeInDown 1s 3s;
 }
 
 .contact-links {
@@ -268,11 +268,11 @@ animation: fadeIn 1s 1.2s backwards, rubberBand 1s 2s;
 }
 
 #flash {
-  animation: bounceIn .5s
+  animation: zoomIn .5s
 }
 
 #pulse {
-  animation: pulse .5s
+  animation: zoomInDown .5s
 }
 
 @media only screen and (max-width: 280px) {
