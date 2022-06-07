@@ -7,6 +7,8 @@ export default function TestAbout() {
     useState(`"Pain unlocks a secret doorway in the mind, one that leads to both
     peak performance, and beautiful silence." -David Goggins`);
 
+  const [flash, setFlash] = useState("");
+
   var x = 0;
 
   useEffect(() => {
@@ -18,10 +20,12 @@ export default function TestAbout() {
       if (currentScrollY > height * 1.5 && x !== 1) {
         x = 2;
         setQuote(quote1);
+        setFlash("flash");
       }
       if (currentScrollY <= height && x === 2) {
         x = 1;
         setQuote(quote2);
+        setFlash("pulse");
       }
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -145,7 +149,10 @@ export default function TestAbout() {
           </div>
         </div>
       </section>
-      <footer className="hidden md:flex justify-center -mt-36 lg:-mt-32 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
+      <footer
+        className="hidden md:flex justify-center -mt-36 lg:-mt-32 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5"
+        id={flash}
+      >
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
           {quote}
         </p>

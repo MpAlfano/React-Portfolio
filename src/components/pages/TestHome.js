@@ -25,6 +25,7 @@ export default function TestHome() {
       if (currentScrollY === 0) {
         x = 1;
         setQuote(quote2);
+        setFlash("pulse");
       }
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
