@@ -33,8 +33,6 @@ export default function TestContact() {
         x = 1;
         setQuote(quote2);
       }
-      console.log(x);
-      console.log(currentScrollY);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
   }, []);
