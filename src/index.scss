@@ -258,8 +258,6 @@ animation: fadeIn 1s 1.2s backwards;
   }
 }
 
-
-
 #resume {
   background: url('/components/images/resume.jpg') center/cover;
   // Photo by Alexandru Acea on Unsplash
@@ -267,6 +265,10 @@ animation: fadeIn 1s 1.2s backwards;
 
 #contact {
   background: url('/components/images/contact.jpg') center/cover;
+}
+
+#flash {
+  animation: fadeIn 1s 1.2s backwards
 }
 
 @media only screen and (max-width: 280px) {

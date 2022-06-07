@@ -22,14 +22,18 @@ export default function TestContact() {
       const quote1 = `"Accept responsibility for your life. Know that it is you who will get you where you want to go, no one else." -Les Brown`;
       const quote2 = `"Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment." -Buddha`;
 
-      if (currentScrollY <= height * 4.5 && x !== 1) {
+      if (currentScrollY >= height * 5 && x !== 1) {
+        x = 3;
+      }
+      if (currentScrollY <= height * 4.98 && x !== 1 && x !== 0) {
         x = 2;
         setQuote(quote1);
       }
-      if (currentScrollY >= height * 5 && x === 2) {
+      if (currentScrollY >= height * 4.99 && x === 2) {
         x = 1;
         setQuote(quote2);
       }
+      console.log(x);
       console.log(currentScrollY);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -165,7 +169,7 @@ export default function TestContact() {
           </li>
         </ul>
       </div>
-      <footer className="flex justify-center px-2 py-6 md:pt-40 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
+      <footer className="flex justify-center px-2 py-6 md:pt-20 md:px-40 md:pr-24 font-semibold w-full text-center z-5">
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-yellow-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
           {quote}
         </p>
