@@ -77,14 +77,16 @@ export default function TestPortfolio() {
                   descriptions and an embedded how to video.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-5">Technologies Used:</h1>
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
+                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+                  Technologies Used:
+                </h1>
                 <ul className="grid grid-cols-4 lg:grid-cols-2 lg:text-xl font-semibold text-center">
-                  <li>MERN Stack</li>
+                  <li>MongoDB</li>
                   <li>GraphQL</li>
                   <li>Apollo</li>
-                  <li>React</li>
                   <li>JavaScript</li>
+                  <li>React</li>
                   <li>TailwindCSS</li>
                   <li>Express</li>
                   <li>Node</li>
@@ -129,8 +131,10 @@ export default function TestPortfolio() {
                   location, search google and generate a random actvity.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-5">Technologies Used:</h1>
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
+                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+                  Technologies Used:
+                </h1>
                 <ul className="grid grid-cols-3 lg:grid-cols-2 text-lg lg:text-xl font-semibold text-center">
                   <li>MapQuest API</li>
                   <li>Bored API</li>

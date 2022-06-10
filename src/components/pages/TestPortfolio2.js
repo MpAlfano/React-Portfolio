@@ -75,17 +75,19 @@ export default function TestPortfolio2() {
                   and a search bar to filter items.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-5">Technologies Used:</h1>
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
+                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+                  Technologies Used:
+                </h1>
                 <ul className="grid grid-cols-4 lg:grid-cols-2 lg:text-xl font-semibold text-center">
                   <li>MySql</li>
-                  <li>Node</li>
-                  <li>Express</li>
                   <li>REST</li>
                   <li>Sequelize</li>
                   <li>Handlebars</li>
                   <li>JavaScript</li>
                   <li>Bootstrap</li>
+                  <li>Node</li>
+                  <li>Express</li>
                 </ul>
               </div>
             </div>
@@ -127,8 +129,10 @@ export default function TestPortfolio2() {
                   and users can also add friends.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-5">Technologies Used:</h1>
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
+                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+                  Technologies Used:
+                </h1>
                 <ul className="grid grid-cols-3 lg:grid-cols-2 text-lg lg:text-xl font-semibold text-center">
                   <li>MongoDB</li>
                   <li>Mongoose</li>
