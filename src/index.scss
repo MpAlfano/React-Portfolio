@@ -212,7 +212,7 @@ animation: bounceInDown 2s 0s;
 .bg-project1 {
   background: url('/components/images/gitfit.png') center/cover;
   z-index: 1;
-  margin-right: -10vw;
+  margin-right: -12vw;
   clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 
   &:hover {
@@ -232,7 +232,7 @@ animation: bounceInDown 2s 0s;
 .bg-project3 {
   background: url('/components/images/proj1.png') center/cover;
   z-index: 1;
-  margin-right: -10vw;
+  margin-right: -12vw;
   clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 
   &:hover {
@@ -242,7 +242,7 @@ animation: bounceInDown 2s 0s;
 .bg-project4 {
   background: url('/components/images/proj5.png') center/cover;
   z-index: 1;
-  margin-right: -10vw;
+  margin-right: -12vw;
   clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 
   &:hover {
@@ -295,6 +295,64 @@ animation: bounceInDown 2s 0s;
 
   nav {
     display:none;
+  }
+
+  .bg-project1 {
+    margin-right: -16vw;
+  }
+  .bg-project2 {
+    margin-right: -16vw;
+  }
+  .bg-project3 {
+    margin-right: -16vw;
+  }
+  .bg-project4 {
+    margin-right: -16vw;
+  }
+
+  .button{
+    position:relative;
+    display:inline-block;
+    padding:0 0px 0 1px;
+    height:31px;width:80px;
+    text-decoration:none;
+    text-align:center;
+    line-height:31px;
+    text-transform:uppercase;
+    top:calc(50% - 20px);
+  }
+  .button:before { 
+    border-right: 35px solid #575757;
+    border-left: 45px solid #f59999;
+    border-bottom: 31px solid transparent;
+    opacity: 0.45;
+  }
+  
+  .button.left {
+    background:rgba(255,255,255,.65);color:#000;
+  
+    &:hover {
+      background:rgb(29, 119, 192);
+      color: white;
+      opacity: 0.9;
+    }
+  }
+  .button.right {
+    background:rgba(0,0,0,.85);color:#fff;
+  
+    &:hover {
+      background:rgb(51, 202, 157);
+      color: black;
+      opacity: 0.9;
+    }
+  }
+      
+  .button:before, .button:after {
+    content: "";    
+    display: block;    
+    position: absolute;    
+    top: 0;    
+    right: 0;
   }
 }
 

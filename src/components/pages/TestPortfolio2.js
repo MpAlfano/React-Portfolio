@@ -44,8 +44,8 @@ export default function TestPortfolio2() {
             </div>
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
-                  <div className="bg-project3 w-full block mt-1 text-lg leading-tight font-semibold">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-2 md:px-12">
+                  <div className="bg-project3 w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://pick-n-mix.herokuapp.com/"
                       target="_blank"
@@ -55,7 +55,7 @@ export default function TestPortfolio2() {
                       Project
                     </a>
                   </div>
-                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                  <div className="bg-repo w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://github.com/MpAlfano/pick-n-mix"
                       target="_blank"
@@ -96,8 +96,8 @@ export default function TestPortfolio2() {
             </div>
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
-                  <div className="bg-project4 w-full block mt-1 text-lg leading-tight font-semibold">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-2 md:px-12">
+                  <div className="bg-project4 w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://drive.google.com/file/d/1DKWWVOzsYXXoT9VpF7elQkfQbeLTxfZC/view"
                       target="_blank"
@@ -107,7 +107,7 @@ export default function TestPortfolio2() {
                       Project
                     </a>
                   </div>
-                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                  <div className="bg-repo w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://github.com/MpAlfano/Social-Network-API"
                       target="_blank"

@@ -46,8 +46,8 @@ export default function TestPortfolio() {
             </div>
             <div className="relative lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
-                  <div className="bg-project1 w-full block mt-1 text-lg leading-tight font-semibold">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-2 md:px-12">
+                  <div className="bg-project1 w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://gitfit-2.herokuapp.com/"
                       target="_blank"
@@ -57,7 +57,7 @@ export default function TestPortfolio() {
                       Project
                     </a>
                   </div>
-                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                  <div className="bg-repo w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://github.com/nkrilis/GitFit-2.0"
                       target="_blank"
@@ -98,8 +98,8 @@ export default function TestPortfolio() {
             </div>
             <div className="lg:flex lg:items-center">
               <div className="mt-4 lg:mt-0 lg:ml-6">
-                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-12">
-                  <div className="bg-project2 w-full block mt-1 text-lg leading-tight font-semibold">
+                <div className="flex flex-1 h-32 lg:h-40 xl:h-52 w-full pb-2 px-2 md:px-12">
+                  <div className="bg-project2 w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://mpalfano.github.io/Off-the-couch-personal/"
                       target="_blank"
@@ -109,7 +109,7 @@ export default function TestPortfolio() {
                       Project
                     </a>
                   </div>
-                  <div className="bg-repo w-full block mt-1 text-lg leading-tight font-semibold">
+                  <div className="bg-repo w-full block mt-1 md:text-lg leading-tight font-semibold">
                     <a
                       href="https://github.com/MpAlfano/Off-The-Couch"
                       target="_blank"
