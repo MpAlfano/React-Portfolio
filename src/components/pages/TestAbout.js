@@ -22,7 +22,7 @@ export default function TestAbout() {
         setQuote(quote1);
         setFlash("flash");
       }
-      if (currentScrollY <= height && x === 2) {
+      if (currentScrollY <= height * 1.2 && x === 2) {
         x = 1;
         setQuote(quote2);
         setFlash("pulse");

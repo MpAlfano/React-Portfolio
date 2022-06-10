@@ -18,16 +18,17 @@ export default function TestPortfolio() {
       const quote1 = `“Everyone fails. Highly successful people fail many more times than the rest of the world and with much higher stakes at hand." ―Lewis Howes`;
       const quote2 = `“Price is what you pay. Value is what you get.” -Warren Buffet`;
 
-      if (currentScrollY > height * 2.5 && x !== 1) {
+      if (currentScrollY > height * 2.45 && x !== 1) {
         x = 2;
         setQuote(quote1);
         setFlash("flash");
       }
-      if (currentScrollY <= height * 2 && x === 2) {
+      if (currentScrollY <= height * 2.2 && x === 2) {
         x = 1;
         setQuote(quote2);
         setFlash("pulse");
       }
+      console.log(currentScrollY);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
   }, []);

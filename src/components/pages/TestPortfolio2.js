@@ -17,12 +17,12 @@ export default function TestPortfolio2() {
       const quote1 = `"I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better." -Elon Musk`;
       const quote2 = `"Other people's opinion of you does not have to become your reality." -Les Brown`;
 
-      if (currentScrollY > height * 3.5 && x !== 1) {
+      if (currentScrollY > height * 3.45 && x !== 1) {
         x = 2;
         setQuote(quote1);
         setFlash("flash");
       }
-      if (currentScrollY <= height * 3 && x === 2) {
+      if (currentScrollY <= height * 3.2 && x === 2) {
         x = 1;
         setQuote(quote2);
         setFlash("pulse");
