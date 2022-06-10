@@ -35,7 +35,7 @@ export default function TestAbout() {
     <main className="h-screen" id="about">
       <section className="top flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
         <div
-          className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-8 md:ml-20"
+          className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-2 md:pt-8 md:ml-20"
           id="bio"
         >
           <p className="md:pt-5 lg:pt-10 lg:px-22 md:pb-4">
@@ -153,7 +153,7 @@ export default function TestAbout() {
         className="hidden md:flex justify-center -mt-36 lg:-mt-32 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-3xl rounded-3xl">
           {quote}
         </p>
       </footer>

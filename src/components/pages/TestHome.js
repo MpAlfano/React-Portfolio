@@ -39,10 +39,10 @@ export default function TestHome() {
     >
       <div className="flex content-center justify-center align-middle mx-auto">
         <div className="flex">
-          <div className="grid lg:flex items-center text-center justify-center md:pt-0 md:pb-24">
+          <div className="grid lg:flex items-center text-center justify-center -mt-10 md:mt-0 md:pb-24">
             <div className="flex justify-center lg:flex-shrink-0 md:pl-16 lg:pl-32 -mb-20">
               <img
-                className="w-60 md:w-72 lg:w-80 rounded-full p-1"
+                className="w-48 md:w-72 lg:w-80 rounded-full p-1"
                 src={profPicture}
                 alt="Prof Pic"
               />
@@ -62,10 +62,10 @@ export default function TestHome() {
         </div>
       </div>
       <footer
-        className="flex pb-6 lg:pb-8 px-2 md:px-40 md:pr-24 absolute bottom-0 w-full justify-center align-middle text-center z-5"
+        className="flex pb-4 lg:pb-8 px-2 md:px-40 md:pr-24 absolute bottom-0 w-full justify-center align-middle text-center z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-green-400 to-neutral-300 md:text-xl lg:text-3xl font-bold rounded-full">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-green-400 to-neutral-300 md:text-xl lg:text-3xl font-bold rounded-3xl">
           {quote}
         </p>
       </footer>

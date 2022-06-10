@@ -175,7 +175,7 @@ export default function TestContact() {
         className="flex justify-center px-2 py-6 md:px-40 md:pr-24 font-semibold w-full text-center z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-yellow-400 to-neutral-300 md:text-xl lg:text-3xl rounded-full">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-yellow-400 to-neutral-300 md:text-xl lg:text-3xl rounded-3xl">
           {quote}
         </p>
       </footer>
