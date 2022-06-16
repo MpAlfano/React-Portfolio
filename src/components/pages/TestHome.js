@@ -52,9 +52,9 @@ export default function TestHome() {
                 Hello my name is Mark, I'm an ambitious Full-Stack Developer.
                 Passionate about maintaining a healthy lifestyle, developing new
                 applications and my personal growth. I enjoy designing on the
-                front end with React, SASS and Tailwindcss or working on back
-                end functionality using JavaScript. I am always looking for
-                fresh opportunities to grow and develop my skills.
+                front end with React, SASS and Tailwindcss or the back end using
+                Node, Express and JavaScript. I am always looking for new and
+                exciting opportunities to grow and develop my skills.
               </p>
             </div>
             <br></br>
