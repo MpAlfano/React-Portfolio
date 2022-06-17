@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/www.markalfano.xyz/static/css/main.efc59025.css",
+    "main.js": "/www.markalfano.xyz/static/js/main.7e96ba18.js",
+    "static/media/about3.jpg": "/www.markalfano.xyz/static/media/about3.8e7c7a61a20cbfd9aa15.jpg",
+    "static/media/proj2.png": "/www.markalfano.xyz/static/media/proj2.55ddafcf96e2bff2f74d.png",
+    "static/media/resume.jpg": "/www.markalfano.xyz/static/media/resume.89fb7aa1b3bd7d6d6115.jpg",
+    "static/media/contact.jpg": "/www.markalfano.xyz/static/media/contact.353954ae66810dfbe6bd.jpg",
+    "static/media/bio.jpg": "/www.markalfano.xyz/static/media/bio.53cc8b482d145d4b00d0.jpg",
+    "static/media/proj1.png": "/www.markalfano.xyz/static/media/proj1.895ac57c73825c668317.png",
+    "static/media/nature2.jpg": "/www.markalfano.xyz/static/media/nature2.7e154ded2c1813979150.jpg",
+    "static/media/resume.png": "/www.markalfano.xyz/static/media/resume.f987c33dbd5dec741b79.png",
+    "static/media/proj4.png": "/www.markalfano.xyz/static/media/proj4.d678fe96c79264e3f592.png",
+    "static/media/gitfit.png": "/www.markalfano.xyz/static/media/gitfit.f83e53f84ef37ec79a0f.png",
+    "static/media/resume.pdf": "/www.markalfano.xyz/static/media/resume.901433c7894a3b9c1e3e.pdf",
+    "static/media/proj5.png": "/www.markalfano.xyz/static/media/proj5.2c5c02688c3135a709a8.png",
+    "static/media/proj3.png": "/www.markalfano.xyz/static/media/proj3.6935f3e63a6c89a68856.png",
+    "index.html": "/www.markalfano.xyz/index.html",
+    "main.efc59025.css.map": "/www.markalfano.xyz/static/css/main.efc59025.css.map",
+    "main.7e96ba18.js.map": "/www.markalfano.xyz/static/js/main.7e96ba18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efc59025.css",
+    "static/js/main.7e96ba18.js"
+  ]
+}
