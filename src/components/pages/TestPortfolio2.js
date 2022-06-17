@@ -80,13 +80,13 @@ export default function TestPortfolio2() {
                   Technologies Used:
                 </h1>
                 <ul className="grid grid-cols-4 lg:grid-cols-2 lg:text-xl font-semibold text-center">
-                  <li>MySql</li>
-                  <li>REST</li>
-                  <li>Sequelize</li>
-                  <li>Handlebars</li>
                   <li>JavaScript</li>
-                  <li>Bootstrap</li>
+                  <li>MySql</li>
+                  <li>Sequelize</li>
+                  <li>REST</li>
+                  <li>Handlebars</li>
                   <li>Node</li>
+                  <li>Bootstrap</li>
                   <li>Express</li>
                 </ul>
               </div>

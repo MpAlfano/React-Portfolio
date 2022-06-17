@@ -85,9 +85,9 @@ export default function TestPortfolio() {
                   <li>MongoDB</li>
                   <li>GraphQL</li>
                   <li>Apollo</li>
-                  <li>JavaScript</li>
                   <li>React</li>
-                  <li>TailwindCSS</li>
+                  <li>JavaScript</li>
+                  <li>Tailwind</li>
                   <li>Express</li>
                   <li>Node</li>
                 </ul>
