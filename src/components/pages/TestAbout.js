@@ -39,10 +39,11 @@ export default function TestAbout() {
           id="bio"
         >
           <p className="md:pt-5 lg:pt-10 lg:px-22 md:pb-4">
-            Previously owned and operated a landscaping business before deciding
-            I wanted to pursue coding. Recently I finished a full stack coding
-            bootcamp and feel empowered by my newly acquired skills. I am eager
-            to learn new skills and grow as I embark on a new career path.
+            Previously owned and operated a landscaping business where I enjoyed
+            designing and building projects from scratch. Recently I finished a
+            full stack coding bootcamp and feel empowered by my newly acquired
+            skills. I am eager to learn and grow as I embark on a new career
+            path.
           </p>
           <p className="md:pl-24 lg:pl-60 md:pr-8">
             I am very goal orientated and enjoy the planning process almost as
@@ -73,7 +74,7 @@ export default function TestAbout() {
               <li>Listening</li>
             </ul>
             <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 pb-1 md:pb-4">
-              <li>Communication</li>
+              <li>Collaboration</li>
               <li>An Eye for Detail</li>
               <li className="pb-1 md:pb-0">Teamwork</li>
               <li className="">Personal Development</li>
