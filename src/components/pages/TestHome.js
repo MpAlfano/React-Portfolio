@@ -65,7 +65,7 @@ export default function TestHome() {
         className="flex pb-4 lg:pb-8 px-2 md:px-40 md:pr-24 absolute bottom-0 w-full justify-center align-middle text-center z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-green-400 to-neutral-300 md:text-xl lg:text-3xl font-bold rounded-3xl">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-green-400 to-neutral-300 md:text-xl lg:text-2xl font-bold rounded-3xl">
           {quote}
         </p>
       </footer>

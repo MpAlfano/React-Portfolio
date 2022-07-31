@@ -36,8 +36,8 @@ export default function TestPortfolio2() {
       className="grid content-center sm:h-fit sm:min-h-screen md:h-screen bg-gradient-to-b from-orange-200 to-green-100"
       id="portfolio2"
     >
-      <div className="container md:pl-20 mx-auto">
-        <div className="grid m-auto xl:gap-y-10">
+      <div className="container port md:pl-20 mx-auto">
+        <div className="grid m-auto">
           <div className="flex-1 text-black text-center border border-indigo-600 px-2 py-2 m-2 rounded-lg">
             <div className="uppercase tracking-wide text-md text-2xl font-bold pb-2">
               Pick & Mix
@@ -150,7 +150,7 @@ export default function TestPortfolio2() {
         className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 text-lg md:text-xl lg:text-3xl rounded-3xl">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 text-lg md:text-xl lg:text-2xl rounded-3xl">
           {quote}
         </p>
       </footer>

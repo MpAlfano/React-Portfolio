@@ -16,7 +16,7 @@ export default function TestPortfolio() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       const quote1 = `“Everyone fails. Highly successful people fail many more times than the rest of the world and with much higher stakes at hand." ―Lewis Howes`;
-      const quote2 = `“Price is what you pay. Value is what you get.” -Warren Buffet`;
+      const quote2 = `“Pain unlocks a secret doorway in the mind, one that leads to both peak performance, and beautiful silence.” -David Goggins`;
 
       if (currentScrollY > height * 2.45 && x !== 1) {
         x = 2;
@@ -38,8 +38,8 @@ export default function TestPortfolio() {
       className="grid content-center sm:h-fit sm:min-h-screen md:h-screen bg-gradient-to-b from-green-200 to-purple-100"
       id="portfolio"
     >
-      <div className="container md:pl-20 mx-auto">
-        <div className="grid m-auto xl:gap-y-10">
+      <div className="container port md:pl-20 mx-auto">
+        <div className="grid m-auto">
           <div className="flex-1 text-black text-center border border-indigo-600 px-2 lg:px-5 py-2 m-2 rounded-lg">
             <div className="uppercase tracking-wide text-md text-2xl font-bold lg:pb-1">
               GitFit
@@ -68,7 +68,7 @@ export default function TestPortfolio() {
                     </a>
                   </div>
                 </div>
-                <p className="text-lg lg:text-2xl">
+                <p className="text-lg lg:text-xl">
                   MERN stack application utilizing GraphQL and apollo-client to
                   access a complex database. Database structure includes users,
                   exercises, workout plans with weekly and daily exercises.
@@ -152,7 +152,7 @@ export default function TestPortfolio() {
         className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-purple-400 to-neutral-300 md:text-xl lg:text-3xl rounded-3xl">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-purple-400 to-neutral-300 md:text-xl lg:text-2xl rounded-3xl">
           {quote}
         </p>
       </footer>

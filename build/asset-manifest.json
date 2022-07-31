@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.246363df.css",
-    "main.js": "/static/js/main.401a9137.js",
+    "main.js": "/static/js/main.5ab5e8d8.js",
     "static/media/about3.jpg": "/static/media/about3.8e7c7a61a20cbfd9aa15.jpg",
     "static/media/proj2.png": "/static/media/proj2.55ddafcf96e2bff2f74d.png",
     "static/media/resume.jpg": "/static/media/resume.89fb7aa1b3bd7d6d6115.jpg",
@@ -9,18 +9,18 @@
     "static/media/bio.jpg": "/static/media/bio.53cc8b482d145d4b00d0.jpg",
     "static/media/proj1.png": "/static/media/proj1.895ac57c73825c668317.png",
     "static/media/nature2.jpg": "/static/media/nature2.7e154ded2c1813979150.jpg",
-    "static/media/resume.png": "/static/media/resume.f987c33dbd5dec741b79.png",
+    "static/media/resume.png": "/static/media/resume.5fb82741adf68b9e23d4.png",
     "static/media/proj4.png": "/static/media/proj4.d678fe96c79264e3f592.png",
     "static/media/gitfit.png": "/static/media/gitfit.f83e53f84ef37ec79a0f.png",
-    "static/media/resume.pdf": "/static/media/resume.901433c7894a3b9c1e3e.pdf",
+    "static/media/resume.pdf": "/static/media/resume.72281c494f516c1636c1.pdf",
     "static/media/proj5.png": "/static/media/proj5.2c5c02688c3135a709a8.png",
     "static/media/proj3.png": "/static/media/proj3.6935f3e63a6c89a68856.png",
     "index.html": "/index.html",
     "main.246363df.css.map": "/static/css/main.246363df.css.map",
-    "main.401a9137.js.map": "/static/js/main.401a9137.js.map"
+    "main.5ab5e8d8.js.map": "/static/js/main.5ab5e8d8.js.map"
   },
   "entrypoints": [
     "static/css/main.246363df.css",
-    "static/js/main.401a9137.js"
+    "static/js/main.5ab5e8d8.js"
   ]
 }

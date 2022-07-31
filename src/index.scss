@@ -381,3 +381,13 @@ animation: bounceInDown 3s 0s;
     clip-path: polygon(1 0, 100% 0, 100% 100%, 0 100%);
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .port {
+    margin-top: 10px
+  }
+
+  .tools {
+    font-size: x-large;
+  }
+}

@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 export default function TestAbout() {
   const { innerHeight: height } = window;
 
-  const [quote, setQuote] =
-    useState(`"Pain unlocks a secret doorway in the mind, one that leads to both
-    peak performance, and beautiful silence." -David Goggins`);
+  const [quote, setQuote] = useState(
+    `“Price is what you pay. Value is what you get.” -Warren Buffet`
+  );
 
   const [flash, setFlash] = useState("");
 
@@ -35,7 +35,7 @@ export default function TestAbout() {
     <main className="h-screen" id="about">
       <section className="top flex flex-col-1 h-1/2 md:h-1/2 text-gray-300">
         <div
-          className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-2 md:pt-8 md:ml-20"
+          className="text-sm md:text-lg lg:text-xl xl:text-2xl px-2 md:px-10 pt-2 md:pt-4 md:ml-20"
           id="bio"
         >
           <p className="md:pt-5 lg:pt-10 lg:px-22 md:pb-4">
@@ -56,16 +56,16 @@ export default function TestAbout() {
       </section>
       <section className="bottom h-3/4">
         <div
-          className="pl-1 pt-12 mt-12 md:pl-24 lg:pl-32 md:pt-52 md:mt-32 lg:pt-28 lg:mt-28"
+          className="pl-1 pt-12 mt-12 md:pl-24 lg:pl-32 md:pt-52 md:mt-32 lg:pt-20 lg:mt-28"
           id="skills"
         >
-          <h1 className="text-xl md:text-3xl xl:text-4xl font-bold underline">
+          <h1 className="text-xl pt-4 md:text-3xl xl:text-4xl font-bold underline">
             Skills
           </h1>
           <div className="grid text-base lg:text-2xl xl:text-3xl font-semibold pt-2 md:mt-2">
             <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 pb-1 md:pb-3">
               <li>Problem Solving </li>
-              <li>Appetite for Knowledge</li>
+              <li>Inquisitiveness</li>
             </ul>
             <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 pb-1 md:pb-3">
               <li>Critical Thinking</li>
@@ -77,11 +77,11 @@ export default function TestAbout() {
               <li>Collaboration</li>
               <li>An Eye for Detail</li>
               <li className="pb-1 md:pb-0">Teamwork</li>
-              <li className="">Personal Development</li>
+              <li className="">Personal Growth</li>
             </ul>
           </div>
 
-          <div className="grid mt-4 lg:pt-6">
+          <div className="grid mt-4 lg:pt-4">
             <h1 className="text-xl md:text-3xl xl:text-4xl font-bold">
               <span className="px-0.5 bg-black text-white underline">
                 Languages, Tools & Frameworks
@@ -96,7 +96,7 @@ export default function TestAbout() {
                   <span className="px-0.5 bg-black text-white">React</span>
                 </li>
                 <li className="md:pb-2">
-                  <span className="px-0.5 bg-black text-white">HTML</span>
+                  <span className="px-0.5 bg-black text-white">Redux</span>
                 </li>
                 <li>
                   <span className="px-0.5 bg-black text-white">CSS</span>
@@ -119,14 +119,12 @@ export default function TestAbout() {
                   <span className="px-0.5 bg-black text-white">GraphQL</span>
                 </li>
                 <li>
-                  <span className="px-0.5 bg-black text-white">MVC & OOP</span>
+                  <span className="px-0.5 bg-black text-white">MVC</span>
                 </li>
               </ul>
               <ul className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 text-center">
                 <li className="md:pb-2">
-                  <span className="px-0.5 bg-black text-white">
-                    TDD with Jest
-                  </span>
+                  <span className="px-0.5 bg-black text-white">TDD - Jest</span>
                 </li>
                 <li>
                   <span className="px-0.5 bg-black text-white">Git</span>
@@ -143,7 +141,7 @@ export default function TestAbout() {
                   <span className="px-0.5 bg-black text-white">BootStrap</span>
                 </li>
                 <li>
-                  <span className="px-0.5 bg-black text-white">Handlebars</span>
+                  <span className="px-0.5 bg-black text-white">HTML</span>
                 </li>
               </ul>
             </div>
@@ -151,10 +149,10 @@ export default function TestAbout() {
         </div>
       </section>
       <footer
-        className="hidden md:flex justify-center -mt-36 lg:-mt-32 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5"
+        className="hidden lg:flex justify-center -mt-36 lg:-mt-24 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-3xl rounded-3xl">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-2xl rounded-3xl">
           {quote}
         </p>
       </footer>
