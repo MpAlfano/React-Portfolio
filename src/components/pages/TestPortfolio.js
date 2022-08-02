@@ -74,14 +74,14 @@ export default function TestPortfolio() {
                   exercises, workout plans with weekly and daily exercises.
                   Users can sign up and check out workout plans, add them to
                   their own profile. Users can also view exercises with
-                  descriptions and an embedded how to video.
+                  descriptions and a how to video.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-60 xl:w-80">
+                <h1 className="font-bold text-xl xl:text-2xl pb-2 lg:pb-5">
                   Technologies Used:
                 </h1>
-                <ul className="grid grid-cols-4 lg:grid-cols-2 lg:text-xl font-semibold text-center">
+                <ul className="grid grid-cols-4 lg:grid-cols-2 text-lg xl:text-xl font-semibold text-center">
                   <li>MongoDB</li>
                   <li>GraphQL</li>
                   <li>Apollo</li>
@@ -95,7 +95,7 @@ export default function TestPortfolio() {
             </div>
           </div>
           <div className="flex-1 text-black text-center border border-indigo-600 px-2 lg:px-5 py-2 m-2 rounded-lg">
-            <div className="uppercase tracking-wide text-md text-2xl font-bold pb-2">
+            <div className="uppercase tracking-wide text-md text-xl font-bold pb-2">
               Off The Couch
             </div>
             <div className="lg:flex lg:items-center">
@@ -122,20 +122,20 @@ export default function TestPortfolio() {
                     </a>
                   </div>
                 </div>
-                <p className="text-lg lg:text-2xl">
-                  Project that helps a user with limited free time find
-                  something to do nearby. They can choose an activity from a
-                  list or have one randomly generated. A hungry user can choose
-                  to have a random restaurant generated, an option for those who
-                  can't decide what to eat. Application uses API's to get
-                  location, search google and generate a random actvity.
+                <p className="text-lg lg:text-xl">
+                  App to help a user with limited free time find something to do
+                  nearby. They can choose an activity from a list or have one
+                  randomly generated. A hungry user can choose to have a random
+                  restaurant generated, for those who can't decide what to eat.
+                  App uses userlocation and API's to search google and generate
+                  a random actvity.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-60 xl:w-80">
+                <h1 className="font-bold text-xl xl:text-2xl pb-2 lg:pb-5">
                   Technologies Used:
                 </h1>
-                <ul className="grid grid-cols-3 lg:grid-cols-2 text-lg lg:text-xl font-semibold text-center">
+                <ul className="grid grid-cols-3 lg:grid-cols-2 text-lg xl:text-xl font-semibold text-center">
                   <li>MapQuest API</li>
                   <li>Bored API</li>
                   <li>SerpStack API</li>
@@ -149,7 +149,7 @@ export default function TestPortfolio() {
         </div>
       </div>
       <footer
-        className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5"
+        className="hidden lg:flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5"
         id={flash}
       >
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-purple-400 to-neutral-300 md:text-xl lg:text-2xl rounded-3xl">

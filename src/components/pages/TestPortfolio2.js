@@ -36,10 +36,10 @@ export default function TestPortfolio2() {
       className="grid content-center sm:h-fit sm:min-h-screen md:h-screen bg-gradient-to-b from-orange-200 to-green-100"
       id="portfolio2"
     >
-      <div className="container port md:pl-20 mx-auto">
+      <div className="container md:pl-20 mx-auto">
         <div className="grid m-auto">
           <div className="flex-1 text-black text-center border border-indigo-600 px-2 py-2 m-2 rounded-lg">
-            <div className="uppercase tracking-wide text-md text-2xl font-bold pb-2">
+            <div className="uppercase tracking-wide text-md text-xl font-bold pb-2">
               Pick & Mix
             </div>
             <div className="lg:flex lg:items-center">
@@ -66,7 +66,7 @@ export default function TestPortfolio2() {
                     </a>
                   </div>
                 </div>
-                <p className="text-lg lg:text-2xl">
+                <p className="text-lg lg:text-xl">
                   Full-stack project that uses a database to populate grocery
                   items for a user to browse through. A user can sign up and
                   begin adding items to their list. The user can also view that
@@ -75,11 +75,11 @@ export default function TestPortfolio2() {
                   and a search bar to filter items.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-60 xl:w-80">
+                <h1 className="font-bold text-xl xl:text-2xl pb-2 lg:pb-5">
                   Technologies Used:
                 </h1>
-                <ul className="grid grid-cols-4 lg:grid-cols-2 lg:text-xl font-semibold text-center">
+                <ul className="grid grid-cols-4 lg:grid-cols-2 text-lg xl:text-xl font-semibold text-center">
                   <li>JavaScript</li>
                   <li>MySql</li>
                   <li>Sequelize</li>
@@ -93,7 +93,7 @@ export default function TestPortfolio2() {
             </div>
           </div>
           <div className="flex-1 text-black text-center border border-indigo-600 px-2 lg:px-5 py-2 m-2 rounded-lg">
-            <div className="uppercase tracking-wide text-md text-2xl font-bold pb-2">
+            <div className="uppercase tracking-wide text-md text-xl font-bold pb-2">
               Social Network API
             </div>
             <div className="lg:flex lg:items-center">
@@ -120,7 +120,7 @@ export default function TestPortfolio2() {
                     </a>
                   </div>
                 </div>
-                <p className="text-lg lg:text-2xl">
+                <p className="text-lg lg:text-xl">
                   Back-end application using mongoDB, mongoose and the express
                   server. Application allows a user to store users, their
                   friends, thoughts and reactions into a database. When a user
@@ -129,11 +129,11 @@ export default function TestPortfolio2() {
                   and users can also add friends.
                 </p>
               </div>
-              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-80">
-                <h1 className="font-bold text-2xl pb-2 md:pb-5">
+              <div className="lg:flex-shrink-0 px-2 md:px-8 lg:w-60 xl:w-80">
+                <h1 className="font-bold text-xl xl:text-2xl pb-2 lg:pb-5">
                   Technologies Used:
                 </h1>
-                <ul className="grid grid-cols-3 lg:grid-cols-2 text-lg lg:text-xl font-semibold text-center">
+                <ul className="grid grid-cols-3 lg:grid-cols-2 text-lg xl:text-xl font-semibold text-center">
                   <li>MongoDB</li>
                   <li>Mongoose</li>
                   <li>Node</li>
@@ -147,10 +147,10 @@ export default function TestPortfolio2() {
         </div>
       </div>
       <footer
-        className="flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5"
+        className="hidden lg:flex justify-center pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center align-middle pt-6 z-5"
         id={flash}
       >
-        <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 text-lg md:text-xl lg:text-2xl rounded-3xl">
+        <p className="px-4 bg-gradient-to-r from-neutral-300 via-red-400 to-neutral-300 md:text-xl lg:text-2xl rounded-3xl">
           {quote}
         </p>
       </footer>

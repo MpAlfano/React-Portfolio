@@ -149,7 +149,7 @@ export default function TestAbout() {
         </div>
       </section>
       <footer
-        className="hidden lg:flex justify-center -mt-36 lg:-mt-24 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5"
+        className="hidden lg:flex justify-center -mt-36 lg:-mt-28 -pt-4 pb-6 px-2 md:px-40 md:pr-24 font-semibold w-full text-center z-5"
         id={flash}
       >
         <p className="px-4 bg-gradient-to-r from-neutral-300 via-blue-400 to-neutral-300 md:text-xl lg:text-2xl rounded-3xl">
