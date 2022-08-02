@@ -5,13 +5,16 @@ import resumeDL from "../documents/resume.pdf";
 
 export default function TestResume() {
   return (
-    <main className="h-fit sm:min-h-screen md:h-screen" id="resume">
-      <div className="mt-1 md:flex justify-center mx-auto px-2">
+    <main
+      className="grid content-center sm:h-fit sm:min-h-screen md:h-screen"
+      id="resume"
+    >
+      <div className="md:flex justify-center">
         <div className="md:flex">
-          <div className="flex-1 text-black text-center md:pl-20 py-5">
+          <div className="flex-1 text-black text-center md:pl-20 pt-4">
             <div className="relative">
               <img
-                className="object-fill w-full"
+                className="object-scale-down w-full"
                 src={resume}
                 alt="biography"
               ></img>
