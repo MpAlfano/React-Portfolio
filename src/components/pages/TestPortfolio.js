@@ -83,13 +83,13 @@ export default function TestPortfolio() {
                 </h1>
                 <ul className="grid grid-cols-4 lg:grid-cols-2 text-lg xl:text-xl font-semibold text-center">
                   <li>MongoDB</li>
-                  <li>GraphQL</li>
                   <li>Apollo</li>
+                  <li>GraphQL</li>
                   <li>React</li>
                   <li>JavaScript</li>
-                  <li>Tailwind</li>
-                  <li>Express</li>
                   <li>Node</li>
+                  <li>Express</li>
+                  <li>Tailwind</li>
                 </ul>
               </div>
             </div>
